@@ -14,18 +14,18 @@ const Navbar = () => {
 
             {/* Routes */}
             <div className="hidden sm:hidden 2xl:flex lg:justify-center justify-around gap-14 text-white 2xl:text-xl lg:hidden">
-                <Link to="/" className="animate-underline">HOME</Link>
-                <Link to="/gallery" className="animate-underline">GALLERY</Link>
-                <Link to="/rulebook" className="animate-underline">RULEBOOK</Link>
-                <Link to="/guests" className="animate-underline">GUESTS</Link>
-                <Link to="/schedule" className="animate-underline">SCHEDULE</Link>
-                <Link to="/invitation" className="animate-underline">INVITATION</Link>
+                <Link to="/" className="animate-underline text-white hover:text-white">HOME</Link>
+                <Link to="/gallery" className="animate-underline text-white  hover:text-white">GALLERY</Link>
+                <Link to="/rulebook" className="animate-underline text-white  hover:text-white">RULEBOOK</Link>
+                <Link to="/guests" className="animate-underline text-white  hover:text-white">GUESTS</Link>
+                <Link to="/schedule" className="animate-underline text-white  hover:text-white">SCHEDULE</Link>
+                <Link to="/invitation" className="animate-underline text-white  hover:text-white">INVITATION</Link>
             </div>
 
             {/* Auth */}
             <div className="absolute flex gap-4 lg:flex justify-around items-center text-white right-4 2xl:right-10 lg:right-10">
-                <button className="bg-transparent p-2 w-14 h-10 text-xs border rounded lg:bg-transparent font-semibold 2xl:w-24 2xl:h-12 2xl:text-base 2xl:font-black">
-                    <Link to='/login'>LOGIN</Link>
+                <button className="bg-transparent p-2 w-14 h-10 text-xs border rounded lg:bg-transparent font-semibold 2xl:w-24 2xl:h-12 2xl:text-base 2xl:font-black text-white border-white ">
+                    <Link to='/login' className="text-white">LOGIN</Link>
                 </button>
                 <button className="bg-transparent p-2 w-20 h-10 text-xs border rounded bg-website-gradient lg:bg-transparent font-semibold 2xl:border-0 2xl:w-28 2xl:h-12 2xl:text-base 2xl:font-black">
                     REGISTER
