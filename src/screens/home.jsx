@@ -10,7 +10,7 @@ import Footer from "./footer.jsx";
 
 const Home = () => {
     return (
-        <div className=" h-screen w-screen bg-background-color overflow-x-hidden cursor-custom">
+        <div className="h-screen w-screen bg-background-color overflow-x-hidden cursor-custom">
          <Navbar />
             <Body/>
             <Countdown/>

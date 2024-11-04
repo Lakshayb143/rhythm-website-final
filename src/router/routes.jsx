@@ -4,7 +4,7 @@ import Rulebook from "../screens/rulebook";
 import Guests from "../screens/guests.jsx";
 import Gallery from "../screens/gallery.jsx";
 import Invitation from "../screens/invitation.jsx";
-import ScheduleCards from "../screens/schedulecards.jsx";
+import ScheduleCards from "../screens/scheduleCards.jsx";
 import Login from "../auth/login.jsx";
 import Signup from "../auth/signup.jsx";
 
