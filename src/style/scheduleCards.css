@@ -1,42 +1,65 @@
 @media (min-width: 1201px) {
-    .schedule-small-screens {
+    .media-queries {
         display: none;
     }
 
-    .main-div{
-    }
-    .line-mid{
-        height: 105rem;
-        width: 0.5rem;
-        background: linear-gradient(90deg, #EB7EF1 0%, #91BAD6 100%);
-    }
-
-    .left-card{
-        position: relative;
-        top: 28rem;
-        z-index: 1;
-    }
-    .left-card h1{
-        color: white;
-        z-index: 999;
-        position: absolute;
-    }
-
-    .button-largescreen{
-        height: 3rem;
-        background-color: transparent;
-        border: 2px solid rgba(235, 126, 241, 1);
+    .left-div {
         display: flex;
-        position: absolute;
+        background-color: red;
+    }
+
+    .schedule-small-screens {
+        width: 100%;
+    }
+
+    .schedule-small-screens .cards {
+        display: flex;
+        flex-direction: column;
+        height: 70rem !important;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .schedule-small-screens .cards .card {
+        background-color: rgba(36, 36, 36, 1);
+        height: 20rem;
+        width: 26rem;
+        border-radius: 1rem;
+    }
+    .schedule-small-screens .cards .card:hover {
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+    }
+
+    .schedule-small-screens .cards .card h1 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .schedule-small-screens .cards .card .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .schedule-small-screens .cards .card .card-content   .card-content-audi {
+        margin-top: 1.5rem;
+        display: flex;
         justify-content: center;
-        bottom: 0rem;
-        left: 47%;
+        align-items: center;
+    }
+    .card-content-audi img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-
-        .button-largescreen:hover{
-            background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
-            border: 0;
-        }
+    .schedule-button{
+        margin-top: 2rem;
+        color: white;
+        background-color: transparent;
+        border:1px solid white;
+    }
+    .schedule-button:hover{
+        background:linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%) ;
+        border: none;
     }
 
 }
@@ -74,7 +97,6 @@
     }
 
     .schedule-small-screens .cards .card h1 {
-        margin-top: 2rem;
 
         font-size: 1.2rem;
         font-weight: bold;
@@ -136,7 +158,6 @@
     }
 
     .schedule-small-screens .cards .card h1 {
-        margin-top: 2rem;
         font-size: 1.2rem;
         font-weight: bold;
     }
@@ -199,7 +220,6 @@
     }
 
     .schedule-small-screens .cards .card h1 {
-        margin-top: 2rem;
 
         font-size: 1.2rem;
         font-weight: bold;

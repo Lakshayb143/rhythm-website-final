@@ -7,34 +7,6 @@ import '../style/scheduleCards.css'
 const scheduleCards = () => {
     return (
         <>
-            <div
-                className="relative h-[1800px] bg-background-color w-screen flex justify-around main-div media-queries  ">
-
-                {/*LEFT CARDS*/}
-                <div className="left-card media-queries">
-                    <CardLeft/>
-                </div>
-
-                {/*DOTS*/}
-                <div className="line-mid media-queries">
-                    <Dots/>
-                    <div className="absolute bottom-24">
-                        <Dots/>
-                    </div>
-
-                </div>
-
-
-                {/*RIGHT CARDS*/}
-                <div className="right-card media-queries">
-                    <CardRight/>
-                </div>
-                <button
-                    className="button-largescreen hover:bg-website-gradient hover:border-0 media-queries">
-                    SEE MORE
-                </button>
-
-            </div>
             {/*small screens*/}
             <div className="schedule-small-screens">
                 <div className="cards">
