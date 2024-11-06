@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const Countdown = () => {
     const width = window.innerWidth;
     const calculateTime = () => {
-        const countDownDate = new Date('November 6, 2024 00:00:00').getTime();
+        const countDownDate = new Date('November 20, 2024 00:00:00').getTime();
         const now = new Date().getTime();
         const remainingTime = countDownDate - now;
 
