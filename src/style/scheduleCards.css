@@ -3,6 +3,41 @@
         display: none;
     }
 
+    .main-div{
+    }
+    .line-mid{
+        height: 105rem;
+        width: 0.5rem;
+        background: linear-gradient(90deg, #EB7EF1 0%, #91BAD6 100%);
+    }
+
+    .left-card{
+        position: relative;
+        top: 28rem;
+        z-index: 1;
+    }
+    .left-card h1{
+        color: white;
+        z-index: 999;
+        position: absolute;
+    }
+
+    .button-largescreen{
+        height: 3rem;
+        background-color: transparent;
+        border: 2px solid rgba(235, 126, 241, 1);
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        bottom: 0rem;
+        left: 47%;
+
+
+        .button-largescreen:hover{
+            background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+            border: 0;
+        }
+    }
 
 }
 
@@ -25,7 +60,7 @@
         flex-direction: column;
         height: 65rem !important;
         align-items: center;
-        gap: 1rem;
+       gap: 1rem;
     }
 
     .schedule-small-screens .cards .card {
@@ -39,6 +74,8 @@
     }
 
     .schedule-small-screens .cards .card h1 {
+        margin-top: 2rem;
+
         font-size: 1.2rem;
         font-weight: bold;
     }
@@ -99,6 +136,7 @@
     }
 
     .schedule-small-screens .cards .card h1 {
+        margin-top: 2rem;
         font-size: 1.2rem;
         font-weight: bold;
     }
@@ -161,6 +199,8 @@
     }
 
     .schedule-small-screens .cards .card h1 {
+        margin-top: 2rem;
+
         font-size: 1.2rem;
         font-weight: bold;
     }

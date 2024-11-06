@@ -16,8 +16,8 @@
 
     .description-about {
         color: white;
-        font-size: 1.2rem;
-        font-weight: 500;
+        font-size: 1rem;
+        font-weight: 400;
         text-align: start;
         margin-top: 1.7rem;
         padding: 0 5rem;
@@ -26,7 +26,7 @@
     .image-container-about {
         position: relative;
         height: 600px;
-        margin-left: 3rem;
+        margin-left: 2rem;
         display: flex;
         justify-content: space-around;
         margin-top: 5rem;
@@ -34,8 +34,8 @@
     }
 
     .image-about {
-        height: 36rem;
-        width: 80rem;
+        height: 24rem;
+        width: 40rem;
         padding: 1.25rem;
     }
 
@@ -49,8 +49,9 @@
     .message-heading-about {
         text-align: start;
         color: rgba(235, 126, 241, 1);
-        font-weight: 700;
-        font-size: 1.8rem;
+        font-weight: 600;
+        font-size: 1rem;
+        flex-wrap: wrap;
         right: 2.5rem;
         width: 1020px;
         margin-top: 1rem;
@@ -59,8 +60,8 @@
     .subtitle-about {
         color: white;
         font-weight: bold;
-        font-size: 2rem;
-        margin-top: 4rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
     }
 
     .list {
@@ -69,13 +70,13 @@
         position: absolute;
         color: white;
         gap: 1rem;
-        top: 22rem;
+        top: 11rem;
         list-style-type: none;
     }
 
     .list-item {
         text-align: start;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
