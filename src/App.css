@@ -190,6 +190,7 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
     margin-top: 10px;
+    width: 100%;
     font-size: 2.2rem;
     font-weight: 600;
     color: white;
@@ -199,7 +200,7 @@ body {
   /* Info Container */
   .info-container {
     position: absolute;
-    top: 72%;
+    top: 74%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -227,7 +228,7 @@ body {
   /* Register Button */
   .register-button {
     position: absolute;
-    top: 82%;
+    top: 85%;
     left: 50%;
     transform: translateX(-50%);
     padding: 20px 28px;
