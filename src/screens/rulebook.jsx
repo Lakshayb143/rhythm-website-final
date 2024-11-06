@@ -1,8 +1,9 @@
+import Navbar from "./navbar.jsx";
 
 const Rulebook = () => {
     return (
-        <div>
-            rulebook
+        <div className="h-screen w-screen bg-background-color overflow-x-hidden">
+            <Navbar/>
         </div>
     )
 }

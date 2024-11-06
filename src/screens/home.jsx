@@ -4,9 +4,10 @@ import Countdown from "./countdown.jsx";
 import About from "./about.jsx";
 import Schedule from "./schedule.jsx";
 import ScheduleCards from "./scheduleCards.jsx";
-import SponsersBody from "./sponserBody.jsx";
 import SponserTitle from "./sponserTitle.jsx";
+import SponsersBody from "./sponserBody.jsx";
 import Footer from "./footer.jsx";
+
 
 const Home = () => {
     return (

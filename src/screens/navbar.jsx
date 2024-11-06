@@ -1,35 +1,25 @@
 import { Link } from 'react-router-dom';
 import  Menu from  '../assets/images/menu.png';
+import Rhythm from '../assets/images/rhythm.png';
 const Navbar = () => {
     return (
-        <div className='flex justify-around h-20 w-screen items-center fixed z-10 bg-background-color'>
-
+        <div className="navbar">
             {/* LOGO */}
-            <div className="flex justify-center items-center gap-6 absolute left-2 2xl:left-16">
-                <img src={Menu} alt="menu" height={24} width={24} className="2xl:hidden"/>
-                <h1 className="text-base md:text-4xl text-white font-extrabold lg:text-3xl">
-                    RHYTHM
-                </h1>
+            <div className="flex logo">
+                <img src={Menu} alt="menu"/>
+            </div>
+            <div className="menu">
+                <img src={Rhythm} alt="rhythm" className="rhythm-logo"/>
             </div>
 
             {/* Routes */}
-            <div className="hidden sm:hidden 2xl:flex lg:justify-center justify-around gap-14 text-white 2xl:text-xl lg:hidden">
-                <Link to="/" className="animate-underline text-white hover:text-white">HOME</Link>
-                <Link to="/gallery" className="animate-underline text-white  hover:text-white">GALLERY</Link>
-                <Link to="/rulebook" className="animate-underline text-white  hover:text-white">RULEBOOK</Link>
-                <Link to="/guests" className="animate-underline text-white  hover:text-white">GUESTS</Link>
-                <Link to="/schedule" className="animate-underline text-white  hover:text-white">SCHEDULE</Link>
-                <Link to="/invitation" className="animate-underline text-white  hover:text-white">INVITATION</Link>
-            </div>
-
-            {/* Auth */}
-            <div className="absolute flex gap-4 lg:flex justify-around items-center text-white right-4 2xl:right-10 lg:right-10">
-                <button className="bg-transparent p-2 w-14 h-10 text-xs border rounded lg:bg-transparent font-semibold 2xl:w-24 2xl:h-12 2xl:text-base 2xl:font-black text-white border-white ">
-                    <Link to='/login' className="text-white">LOGIN</Link>
-                </button>
-                <button className="bg-transparent p-2 w-20 h-10 text-xs border rounded bg-website-gradient lg:bg-transparent font-semibold 2xl:border-0 2xl:w-28 2xl:h-12 2xl:text-base 2xl:font-black">
-                    REGISTER
-                </button>
+            <div className="nav-links">
+                <Link to="/" className="animate-underline text-white hover:text-white nav-link">HOME</Link>
+                <Link to="/gallery" className="animate-underline text-white  hover:text-white nav-link">GALLERY</Link>
+                <Link to="/rulebook" className="animate-underline text-white  hover:text-white nav-link">RULEBOOK</Link>
+                <Link to="/events" className="animate-underline text-white  hover:text-white nav-link">EVENTS</Link>
+                <Link to="/schedule" className="animate-underline text-white  hover:text-white nav-link">SCHEDULE</Link>
+                <Link to="/brochure" className="animate-underline text-white  hover:text-white nav-link">BROCHURE</Link>
             </div>
         </div>
     )

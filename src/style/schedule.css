@@ -1,0 +1,204 @@
+@media (min-width: 1201px) {
+    .schedule-container {
+        height: 15rem;
+        left: 3rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .schedule-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .schedule-title {
+        position: absolute;
+        top: 4rem; /* Equivalent to top-16 */
+        left: 2.5rem; /* Equivalent to left-10 */
+        font-size: 3rem; /* Larger font size */
+        font-weight: 900; /* Bold font weight */
+        color: transparent; /* Make the text color transparent */
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+        background-clip: text; /* Standard property for other browsers */
+    }
+
+
+    .schedule-line-container {
+        position: absolute;
+        top: 6rem; /* Equivalent to 2xl:top-24 */
+        left: 2.5rem; /* Equivalent to left-10 */
+        display: flex;
+        margin-top: 2rem; /* Equivalent to mt-24 */
+        padding-top: 0.5rem; /* Equivalent to pt-2 */
+    }
+
+    .schedule-line {
+        height: 0.2rem;
+        width: 10rem;
+        background-color: white;
+    }
+
+    .schedule-year {
+        position: absolute;
+        top: -0.5rem; /* Equivalent to md:top-28 */
+        left: 11.5rem;
+        color: white;
+        font-size: 1.75rem;
+        font-weight: 900;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .schedule-container {
+        height: 10rem;
+        position: relative;
+        display: flex;
+        padding-left: 1rem;
+    }
+
+    .schedule-header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .schedule-title {
+        position: absolute;
+        top: 3rem; /* Equivalent to top-16 */
+        font-size: 1.5rem; /* Equivalent to text-2xl */
+        font-weight: 900; /* Equivalent to font-black */
+        color: transparent; /* Make the text color transparent */
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+        background-clip: text;
+    }
+
+    .schedule-line-container {
+        position: absolute;
+        top: 3rem; /* Equivalent to 2xl:top-24 */
+        display: flex;
+        margin-top: 2rem; /* Equivalent to mt-24 */
+        padding-top: 0.5rem; /* Equivalent to pt-2 */
+    }
+
+    .schedule-line {
+        height: 0.1rem;
+        width: 5.5rem;
+        background-color: white;
+    }
+
+    .schedule-year {
+        position: absolute;
+        top: 0;
+        left: 6rem;
+        color: white;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .schedule-container {
+        height: 10rem;
+        position: relative;
+        display: flex;
+        padding-left: 1rem;
+    }
+
+    .schedule-header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .schedule-title {
+        position: absolute;
+        top: 3rem; /* Equivalent to top-16 */
+        font-size: 2.5rem; /* Equivalent to text-2xl */
+        font-weight: 900; /* Equivalent to font-black */
+        color: transparent; /* Make the text color transparent */
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+        background-clip: text;
+    }
+
+    .schedule-line-container {
+        position: absolute;
+        top: 4rem; /* Equivalent to 2xl:top-24 */
+        display: flex;
+        margin-top: 2rem; /* Equivalent to mt-24 */
+        padding-top: 0.5rem; /* Equivalent to pt-2 */
+    }
+
+    .schedule-line {
+        height: 0.3rem;
+        width: 9rem;
+        background-color: white;
+    }
+
+    .schedule-year {
+        position: absolute;
+        top: 0;
+        left: 10rem;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .schedule-container {
+        height: 10rem;
+        position: relative;
+        display: flex;
+        padding-left: 1rem;
+    }
+
+    .schedule-header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .schedule-title {
+        position: absolute;
+        top: 3rem; /* Equivalent to top-16 */
+        font-size: 2.5rem; /* Equivalent to text-2xl */
+        font-weight: 900; /* Equivalent to font-black */
+        color: transparent; /* Make the text color transparent */
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+        background-clip: text;
+    }
+
+    .schedule-line-container {
+        position: absolute;
+        top: 4rem; /* Equivalent to 2xl:top-24 */
+        display: flex;
+        margin-top: 2rem; /* Equivalent to mt-24 */
+        padding-top: 0.5rem; /* Equivalent to pt-2 */
+    }
+
+    .schedule-line {
+        height: 0.3rem;
+        width: 9rem;
+        background-color: white;
+    }
+
+    .schedule-year {
+        position: absolute;
+        top: 0;
+        left: 10rem;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+}

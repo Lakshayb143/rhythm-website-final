@@ -1,0 +1,12 @@
+.card-right {
+    height: 10rem; /* 40px */
+    width: 12rem; /* 48px */
+    border-left: 2px solid; /* Add your desired color here */
+    border-radius: 0 1.5rem 1.5rem 0; /* Rounded corners for top right and bottom right */
+    background-color: rgba(36, 36, 36, 1); /* Ensure --custom-gray is defined in your CSS */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.card-right:hover {
+    background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+}

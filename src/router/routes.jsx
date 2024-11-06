@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../screens/home";
 import Rulebook from "../screens/rulebook";
-import Guests from "../screens/guests.jsx";
+import Events from "../screens/events.jsx";
 import Gallery from "../screens/gallery.jsx";
-import Invitation from "../screens/invitation.jsx";
-import ScheduleCards from "../screens/scheduleCards.jsx";
+import Brochure from "../screens/brochure.jsx";
 import Login from "../auth/login.jsx";
 import Signup from "../auth/signup.jsx";
+import ScheduleNav from "../screens/ScheduleNav.jsx";
 
 
 const AppRoutes = () => {
@@ -16,9 +16,9 @@ const AppRoutes = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/rulebook" element={<Rulebook />} />
-                <Route path="/guests" element={<Guests />} />
-                <Route path="/schedule" element={<ScheduleCards />} />
-                <Route path="/invitation" element={<Invitation />} />
+                <Route path="/events" element={<Events />} />
+                    <Route path="/schedule" element={<ScheduleNav />} />
+                <Route path="/brochure" element={<Brochure />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
 

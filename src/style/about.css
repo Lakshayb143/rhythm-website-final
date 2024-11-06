@@ -1,0 +1,312 @@
+/* About.css */
+@media (min-width: 1201px) {
+    .container-about {
+        border-top: 1px solid white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-heading-about {
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin-top: 4rem;
+    }
+
+    .description-about {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: start;
+        margin-top: 1.7rem;
+        padding: 0 5rem;
+    }
+
+    .image-container-about {
+        position: relative;
+        height: 600px;
+        margin-left: 3rem;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5rem;
+        align-items: flex-start;
+    }
+
+    .image-about {
+        height: 36rem;
+        width: 80rem;
+        padding: 1.25rem;
+    }
+
+    .message-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        position: relative;
+    }
+
+    .message-heading-about {
+        text-align: start;
+        color: rgba(235, 126, 241, 1);
+        font-weight: 700;
+        font-size: 1.8rem;
+        right: 2.5rem;
+        width: 1020px;
+        margin-top: 1rem;
+    }
+
+    .subtitle-about {
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        color: white;
+        gap: 1rem;
+        top: 22rem;
+        list-style-type: none;
+    }
+
+    .list-item {
+        text-align: start;
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container-about {
+        border-top: 1px solid white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-heading-about {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-top: 4rem;
+    }
+
+    .description-about {
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-align: start;
+        margin-top: 1.7rem;
+        padding: 0 1.5rem;
+    }
+
+    .image-container-about {
+        position: relative;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        align-items: center;
+    }
+
+    .image-about {
+        height: 14rem;
+        width: 18rem;
+    }
+
+    .message-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        position: relative;
+    }
+
+    .message-heading-about {
+        text-align: center;
+        color: rgba(235, 126, 241, 1);
+        font-weight:600;
+        font-size: 0.8rem;
+        margin-top: 2rem;
+        padding: 0.8rem;
+    }
+
+    .subtitle-about {
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 0.5rem;
+        top: 4rem;
+        list-style-type: none;
+    }
+
+    .list-item {
+        text-align: start;
+        font-size: 0.8rem;
+        padding: 0.5rem ;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container-about {
+        border-top: 1px solid white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-heading-about {
+        color: white;
+        font-size: 2.2rem;
+        font-weight: 900;
+        margin-top: 4rem;
+    }
+
+    .description-about {
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: start;
+        margin-top: 1.7rem;
+        padding: 0 1.5rem;
+    }
+
+    .image-container-about {
+        position: relative;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        align-items: center;
+    }
+
+    .image-about {
+        height: 18rem;
+        width: 28rem;
+    }
+
+    .message-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        position: relative;
+    }
+
+    .message-heading-about {
+        text-align: center;
+        color: rgba(235, 126, 241, 1);
+        font-weight:600;
+        font-size: 0.9rem;
+        margin-top: 2rem;
+        padding: 0.8rem;
+    }
+
+    .subtitle-about {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 0.5rem;
+        top: 5rem;
+        list-style-type: none;
+    }
+
+    .list-item {
+        text-align: start;
+        font-size: 0.9rem;
+        padding: 0.5rem ;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container-about {
+        border-top: 1px solid white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-heading-about {
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin-top: 4rem;
+    }
+
+    .description-about {
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: start;
+        margin-top: 1.7rem;
+        padding: 0 1.5rem;
+    }
+
+    .image-container-about {
+        position: relative;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        align-items: center;
+    }
+
+    .image-about {
+        height: 20rem;
+        width: 30rem;
+    }
+
+    .message-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        position: relative;
+    }
+
+    .message-heading-about {
+        text-align: center;
+        color: rgba(235, 126, 241, 1);
+        font-weight:600;
+        font-size: 1rem;
+        margin-top: 2rem;
+        padding: 0.8rem;
+    }
+
+    .subtitle-about {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 0.5rem;
+        top: 4rem;
+        list-style-type: none;
+    }
+
+    .list-item {
+        text-align: start;
+        font-size: 1rem;
+        padding: 0.5rem ;
+    }
+}

@@ -1,0 +1,43 @@
+
+@media (min-width: 1201px) {
+
+    .slider-container {
+        position: absolute;
+        top: 1.5rem;
+        height: 400px;
+        border-top: 10px solid rgba(141, 138, 242, 1);
+        border-bottom: 10px solid rgba(141, 138, 242, 1);
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .slider-container {
+        position: relative;
+        top: 1.5rem;
+        height: 200px;
+        border-top: 10px solid rgba(141, 138, 242, 1);
+        border-bottom: 10px solid rgba(141, 138, 242, 1);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .slider-container {
+        position: relative;
+        top: 1.5rem;
+        height: 400px;
+        border-top: 10px solid rgba(141, 138, 242, 1);
+        border-bottom: 10px solid rgba(141, 138, 242, 1);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .slider-container {
+        position: relative;
+        top: 1.5rem;
+        height: 400px;
+        border-top: 10px solid rgba(141, 138, 242, 1);
+        border-bottom: 10px solid rgba(141, 138, 242, 1);
+    }
+}

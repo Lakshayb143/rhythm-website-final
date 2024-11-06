@@ -1,0 +1,194 @@
+@media (min-width: 1201px) {
+    .schedule-small-screens {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .media-queries {
+        display: none;
+    }
+
+    .left-div {
+        display: flex;
+        background-color: red;
+    }
+
+    .schedule-small-screens {
+        width: 100%;
+    }
+
+    .schedule-small-screens .cards {
+        display: flex;
+        flex-direction: column;
+        height: 65rem !important;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .schedule-small-screens .cards .card {
+        background-color: rgba(36, 36, 36, 1);
+        height: 12rem;
+        width: 18rem;
+        border-radius: 1rem;
+    }
+    .schedule-small-screens .cards .card:hover {
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+    }
+
+    .schedule-small-screens .cards .card h1 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .schedule-small-screens .cards .card .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .schedule-small-screens .cards .card .card-content   .card-content-audi {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content-audi img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .schedule-button{
+        color: white;
+        background-color: transparent;
+        border:1px solid white;
+    }
+    .schedule-button:hover{
+        background:linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%) ;
+        border: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .media-queries {
+        display: none;
+    }
+
+
+    .schedule-small-screens {
+        width: 100%;
+    }
+
+    .schedule-small-screens .cards {
+        display: flex;
+        flex-direction: column;
+        height: 60rem !important;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .schedule-small-screens .cards .card {
+        background-color: rgba(36, 36, 36, 1);
+        height: 11rem;
+        width: 16rem;
+        border-radius: 1rem;
+    }
+    .schedule-small-screens .cards .card:hover {
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+    }
+
+    .schedule-small-screens .cards .card h1 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .schedule-small-screens .cards .card .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .schedule-small-screens .cards .card .card-content   .card-content-audi {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content-audi img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .schedule-button{
+        color: white;
+        background-color: transparent;
+        border:1px solid white;
+        margin-top: 2rem;
+    }
+    .schedule-button:hover{
+        background:linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%) ;
+        border: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .media-queries {
+        display: none;
+    }
+
+
+
+    .schedule-small-screens {
+        width: 100%;
+    }
+
+    .schedule-small-screens .cards {
+        display: flex;
+        flex-direction: column;
+        height: 60rem !important;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .schedule-small-screens .cards .card {
+        background-color: rgba(36, 36, 36, 1);
+        height: 11rem;
+        width: 16rem;
+        border-radius: 1rem;
+    }
+    .schedule-small-screens .cards .card:hover {
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+    }
+
+    .schedule-small-screens .cards .card h1 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .schedule-small-screens .cards .card .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .schedule-small-screens .cards .card .card-content   .card-content-audi {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content-audi img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .schedule-button{
+        color: white;
+        background-color: transparent;
+        border:1px solid white;
+        margin-top: 2rem;
+    }
+    .schedule-button:hover{
+        background:linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%) ;
+        border: none;
+    }
+}
