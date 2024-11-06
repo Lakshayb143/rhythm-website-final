@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 
 const Countdown = () => {
     const width = window.innerWidth;
-
     const calculateTime = () => {
         const countDownDate = new Date('November 20, 2024 00:00:00').getTime();
         const now = new Date().getTime();
@@ -27,7 +26,7 @@ const Countdown = () => {
 
     if (timeLeft.days < 0) {
         return (
-            <div className="container hidden">
+            <div className="container">
                 <div className="centered">
                     <h1 className="main-heading">🎉 THE MOMENT IS HERE! 🎉</h1>
                         <h4 className="sub-heading">
@@ -39,11 +38,12 @@ const Countdown = () => {
     }
 
     return (
-        <div className="container">
+        <div className="countdown-container">
+            {/*countdown*/}
             <div className="centered">
                 <h1 className="main-heading">🚀 EVENT STARTS IN 🚀</h1>
             </div>
-            <div className="timer-container" style={{ width }}>
+            <div className="timer-container" style={{width}}>
                 <div className="time-box">
                     <h1 className="time-number">{timeLeft.days}</h1>
                     <h1 className="time-label">DAYS</h1>
@@ -61,6 +61,7 @@ const Countdown = () => {
                     <h1 className="time-label">SECONDS</h1>
                 </div>
             </div>
+
         </div>
     );
 };

@@ -258,34 +258,17 @@ body {
   }
 
   /* Countdown.css */
-
-  .container {
-    position: relative;
-    left: 5rem;
-    height: 26rem;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-.centered{
-  position: absolute;
-  top: 2rem;
-  left: 38%;
+.countdown-container{
+  height: 20rem;
   width: 100%;
-  display: flex;
-  align-items: center;
 }
 
-
-  .main-heading {
-    color: white;
-    font-weight: 800;
-    font-size: 2.5rem;
-    margin-top: 1rem;
-    animation: pulse 3s infinite;
-  }
-
+.main-heading{
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+}
   .sub-heading {
     color: white;
     font-size: 1rem;
@@ -301,7 +284,6 @@ body {
     align-items: center;
     margin-top: 4rem;
     position: relative;
-    left: -5rem;
   }
 
   .time-box {
@@ -498,9 +480,10 @@ body {
   /* Countdown.css */
 
   .container {
-    height: 16rem;
+    height: 18rem;
     width: 100vw;
     display: flex;
+    background-color: red;
     flex-direction: column;
   }
 
@@ -533,6 +516,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 4rem;
+    margin-bottom: 2rem;
   }
 
   .time-box {
