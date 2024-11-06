@@ -260,25 +260,29 @@ body {
   /* Countdown.css */
 
   .container {
-    height: 25rem;
+    position: relative;
+    left: 5rem;
+    height: 26rem;
+    width: 100%;
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-items: center;
   }
+.centered{
+  position: absolute;
+  top: 2rem;
+  left: 38%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 
-  .centered {
-    left: 50%;
-    transform: translateX(-38%);
-    position: relative;
-    top: 2rem;
-  }
 
   .main-heading {
-  text-align: center;
     color: white;
     font-weight: 800;
     font-size: 2.5rem;
+    margin-top: 1rem;
     animation: pulse 3s infinite;
   }
 
@@ -288,15 +292,16 @@ body {
     padding: 0 2.5rem;
     font-weight: bold;
     margin-top: 1rem;
-    word-wrap: break-word;
   }
 
   .timer-container {
     display: flex;
-    width: 50%;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: 4rem;
+    position: relative;
+    left: -5rem;
   }
 
   .time-box {

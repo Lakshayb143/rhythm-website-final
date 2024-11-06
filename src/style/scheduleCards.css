@@ -83,7 +83,7 @@
         flex-direction: column;
         height: 65rem !important;
         align-items: center;
-       gap: 1rem;
+        gap: 1rem;
     }
 
     .schedule-small-screens .cards .card {
@@ -104,12 +104,17 @@
     .schedule-small-screens .cards .card .card-content {
         display: flex;
         flex-direction: column;
+
     }
     .schedule-small-screens .cards .card .card-content   .card-content-audi {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 2rem;
+
     }
+
+
     .card-content-audi img{
         display: flex;
         justify-content: center;
@@ -217,7 +222,6 @@
     }
 
     .schedule-small-screens .cards .card h1 {
-
         font-size: 1.2rem;
         font-weight: bold;
     }

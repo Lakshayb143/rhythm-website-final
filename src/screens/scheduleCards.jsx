@@ -17,11 +17,11 @@ const scheduleCards = () => {
                         <div className="card-content">
                             <div className="card-content-audi">
                                 <img src={pin} width={18} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className=" ml-2 text-xl  ">DCRUST AUDITORIUM</h3>
+                                <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-xl">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
                             </div>
                         </div>
 
@@ -34,11 +34,11 @@ const scheduleCards = () => {
                         <div className="card-content">
                             <div className="card-content-audi">
                                 <img src={pin} width={18} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className=" ml-2 text-xl  ">DCRUST AUDITORIUM</h3>
+                                <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-xl">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
                             </div>
                         </div>
 
@@ -51,11 +51,11 @@ const scheduleCards = () => {
                         <div className="card-content">
                             <div className="card-content-audi">
                                 <img src={pin} width={18} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className=" ml-2 text-xl  ">DCRUST AUDITORIUM</h3>
+                                <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-xl">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
                             </div>
                         </div>
                     </div>
@@ -66,11 +66,11 @@ const scheduleCards = () => {
                         <div className="card-content">
                             <div className="card-content-audi">
                                 <img src={pin} width={18} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className=" ml-2 text-xl  ">DCRUST AUDITORIUM</h3>
+                                <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-xl">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
                             </div>
                         </div>
                     </div>
@@ -81,11 +81,11 @@ const scheduleCards = () => {
                         <div className="card-content">
                             <div className="card-content-audi">
                                 <img src={pin} width={18} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className=" ml-2 text-xl  ">DCRUST AUDITORIUM</h3>
+                                <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-xl">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
                             </div>
                         </div>
                     </div>

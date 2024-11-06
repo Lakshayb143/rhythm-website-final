@@ -27,10 +27,10 @@ const Countdown = () => {
 
     if (timeLeft.days < 0) {
         return (
-            <div className="container">
+            <div className="container hidden">
                 <div className="centered">
                     <h1 className="main-heading">🎉 THE MOMENT IS HERE! 🎉</h1>
-                    <h4 className="sub-heading">
+                        <h4 className="sub-heading">
                         The wait is over, and the excitement begins NOW!
                     </h4>
                 </div>
