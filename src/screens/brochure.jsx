@@ -10,7 +10,7 @@ const Brochure = () => {
             <Navbar/>
             <div className="event-container w-screen flex justify-center flex-col items-center">
                 <h1 className="event-mainheading">BROCHURE</h1>
-                <h6 className="mt-6 text-4xl font-bold animate-bounce brochure-subheading">Download Brochure & Plan Your Fest!
+                <h6 className="mt-6 text-4xl font-bold animate-bounce brochure-subheading text-white">Download Brochure & Plan Your Fest!
                 </h6>
 
                 <a href={pdf} download="rulebook" className="text-white">

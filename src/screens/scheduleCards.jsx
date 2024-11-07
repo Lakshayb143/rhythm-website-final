@@ -4,6 +4,7 @@ import CardRight from "./cardRight";
 import  pin from '../assets/images/pin.png';
 import  clock from '../assets/images/clock.png'
 import '../style/scheduleCards.css'
+import {Link} from "react-router-dom";
 const scheduleCards = () => {
     return (
         <>
@@ -91,11 +92,12 @@ const scheduleCards = () => {
                     </div>
 
                 </div>
+<Link to="/schedule">
                 <button
                     className="schedule-button">
                     SEE MORE
                 </button>
-
+</Link>
             </div>
 </>)
 }
