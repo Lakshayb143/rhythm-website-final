@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import  { useCallback, useEffect, useRef, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import {
   NextButton,
@@ -113,6 +113,7 @@ const EmblaCarousel = (props) => {
 
   return (
     <div className="embla">
+      <h1 className="gallery-heading">GALLERY</h1>
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {images.map((index) => (

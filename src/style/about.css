@@ -5,6 +5,7 @@
         position: relative;
         display: flex;
         flex-direction: column;
+        max-height: 50rem;
     }
 
     .main-heading-about {
