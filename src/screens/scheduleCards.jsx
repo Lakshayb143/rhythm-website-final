@@ -21,8 +21,8 @@ const scheduleCards = () => {
                                 <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
                             </div>
                             <div className="card-content-audi">
-                                <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">10:00 PM TO 11:00 PM</h3>
+                                {/*  <img src={clock} width={20} height={15} alt="" className=" h-6 w-6 "/>*/}
+                                <h3 className="ml-2 text-base hidden">10:00 PM TO 11:00 PM</h3>
                             </div>
                         </div>
 
@@ -37,9 +37,9 @@ const scheduleCards = () => {
                                 <img src={pin} width={18} height={15} alt="" className=" h-6 w-6"/>
                                 <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
                             </div>
-                            <div className="card-content-audi">
-                                <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">11:00 PM TO 12:00 PM</h3>
+                            <div className="card-content-audi hidden">
+                                {/*  <img src={clock} width={20} height={15} alt="" className=" h-6 w-6 "/>*/}
+                                <h3 className="ml-2 text-base hidden">11:00 PM TO 12:00 PM</h3>
                             </div>
                         </div>
 
@@ -50,13 +50,13 @@ const scheduleCards = () => {
                             SKIT
                         </h1>
                         <div className="card-content">
-                            <div className="card-content-audi">
-                                <img src={pin} width={18} height={15} alt="" className=" h-6 w-6"/>
+                            <div className="card-content-audi ">
+                                <img src={pin} width={18} height={15} alt="" className=" h-6 w-6 hidden"/>
                                 <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
                             </div>
-                            <div className="card-content-audi">
-                                <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">12:00 PM TO 01:00 PM</h3>
+                            <div className="card-content-audi hidden">
+                                {/*  <img src={clock} width={20} height={15} alt="" className=" h-6 w-6 "/>*/}
+                                <h3 className="ml-2 text-base hidden">12:00 PM TO 01:00 PM</h3>
                             </div>
                         </div>
                     </div>
@@ -65,13 +65,13 @@ const scheduleCards = () => {
                             DANCE
                         </h1>
                         <div className="card-content">
-                            <div className="card-content-audi">
+                            <div className="card-content-audi ">
                                 <img src={pin} width={18} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
+                                <h3 className=" ml-2 text-base   ">DCRUST AUDITORIUM</h3>
                             </div>
-                            <div className="card-content-audi">
-                                <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">01:00 PM TO 02:00 PM</h3>
+                            <div className="card-content-audi ">
+                                {/*  <img src={clock} width={20} height={15} alt="" className=" h-6 w-6 "/>*/}
+                                <h3 className="ml-2 text-base hidden">01:00 PM TO 02:00 PM</h3>
                             </div>
                         </div>
                     </div>
@@ -80,13 +80,13 @@ const scheduleCards = () => {
                             MUSIC
                         </h1>
                         <div className="card-content">
-                            <div className="card-content-audi">
+                            <div className="card-content-audi hidden">
                                 <img src={pin} width={18} height={15} alt="" className=" h-6 w-6"/>
                                 <h3 className=" ml-2 text-base  ">DCRUST AUDITORIUM</h3>
                             </div>
-                            <div className="card-content-audi">
-                                <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">02:00 PM TO 03:00 PM</h3>
+                            <div className="card-content-audi hidden">
+                                {/*  <img src={clock} width={20} height={15} alt="" className=" h-6 w-6 "/>*/}
+                                <h3 className="ml-2 text-base hidden">02:00 PM TO 03:00 PM</h3>
                             </div>
                         </div>
                     </div>

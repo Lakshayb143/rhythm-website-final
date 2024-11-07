@@ -15,14 +15,14 @@
     .schedule-small-screens .cards {
         display: flex;
         flex-direction: column;
-        height: 70rem !important;
+        height: 50rem !important;
         align-items: center;
         gap: 1rem;
     }
 
     .schedule-small-screens .cards .card {
         background-color: rgba(36, 36, 36, 1);
-        height: 20rem;
+        height: 9rem;
         width: 26rem;
         border-radius: 1rem;
     }
@@ -40,6 +40,7 @@
     .schedule-small-screens .cards .card .card-content {
         display: flex;
         flex-direction: column;
+
     }
     .schedule-small-screens .cards .card .card-content   .card-content-audi {
         color: white;
@@ -85,14 +86,14 @@
     .schedule-small-screens .cards {
         display: flex;
         flex-direction: column;
-        height: 65rem !important;
+        height: 50rem !important;
         align-items: center;
         gap: 1rem;
     }
 
     .schedule-small-screens .cards .card {
         background-color: rgba(36, 36, 36, 1);
-        height: 12rem;
+        height: 9rem;
         width: 18rem;
         border-radius: 1rem;
     }
@@ -151,14 +152,14 @@
     .schedule-small-screens .cards {
         display: flex;
         flex-direction: column;
-        height: 60rem !important;
+        height: 55rem !important;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .schedule-small-screens .cards .card {
         background-color: rgba(36, 36, 36, 1);
-        height: 11rem;
+        height: 9.5rem;
         width: 16rem;
         border-radius: 1rem;
     }
@@ -214,14 +215,14 @@
     .schedule-small-screens .cards {
         display: flex;
         flex-direction: column;
-        height: 60rem !important;
+        height: 55rem !important;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .schedule-small-screens .cards .card {
         background-color: rgba(36, 36, 36, 1);
-        height: 11rem;
+        height: 9.5rem;
         width: 16rem;
         border-radius: 1rem;
     }
@@ -239,6 +240,8 @@
         flex-direction: column;
     }
     .schedule-small-screens .cards .card .card-content   .card-content-audi {
+        margin-top: 1.2rem;
+        width: max-content;
         display: flex;
         justify-content: center;
         align-items: center;

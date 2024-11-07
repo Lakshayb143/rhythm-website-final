@@ -748,6 +748,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 6rem;
+    margin-bottom: 4rem;
   }
 
   .time-box {
@@ -958,6 +959,7 @@ body {
   .centered {
     position: relative;
     top: 2rem;
+
   }
 
   .main-heading {
@@ -983,6 +985,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 8rem;
+    margin-bottom: 4rem;
   }
 
   .time-box {
