@@ -23,10 +23,6 @@ const Events=()=>{
                 <EventCards/>
                 <EventCards/>
                 <EventCards/>
-
-
-
-
             </div>
         </div>
     )
