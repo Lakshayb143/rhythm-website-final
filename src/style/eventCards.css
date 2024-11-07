@@ -176,7 +176,7 @@
   }
 }
 
-@media screen and (max-widt`h: 480px) {
+@media screen and (max-width: 480px) {
   .event-card {
     display: flex;
     flex-direction: column;
