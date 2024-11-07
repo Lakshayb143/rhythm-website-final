@@ -1,8 +1,70 @@
 @media (min-width: 1201px) {
-    .schedule-small-screens {
+    .media-queries {
         display: none;
     }
 
+    .left-div {
+        display: flex;
+        background-color: red;
+    }
+
+    .schedule-small-screens {
+        width: 100%;
+    }
+
+    .schedule-small-screens .cards {
+        display: flex;
+        flex-direction: column;
+        height: 70rem !important;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .schedule-small-screens .cards .card {
+        background-color: rgba(36, 36, 36, 1);
+        height: 20rem;
+        width: 26rem;
+        border-radius: 1rem;
+    }
+    .schedule-small-screens .cards .card:hover {
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+    }
+
+    .schedule-small-screens .cards .card h1 {
+        color: white;
+
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .schedule-small-screens .cards .card .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .schedule-small-screens .cards .card .card-content   .card-content-audi {
+        color: white;
+
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content-audi img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .schedule-button{
+        margin-top: 2rem;
+        color: white;
+        background-color: transparent;
+        border:1px solid white;
+    }
+    .schedule-button:hover{
+        background:linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%) ;
+        border: none;
+    }
 
 }
 
@@ -39,6 +101,7 @@
     }
 
     .schedule-small-screens .cards .card h1 {
+        color: white;
         font-size: 1.2rem;
         font-weight: bold;
     }
@@ -46,13 +109,18 @@
     .schedule-small-screens .cards .card .card-content {
         display: flex;
         flex-direction: column;
+
     }
     .schedule-small-screens .cards .card .card-content   .card-content-audi {
-        margin-top: 1.5rem;
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 2rem;
+
     }
+
+
     .card-content-audi img{
         display: flex;
         justify-content: center;
@@ -106,12 +174,13 @@
     .schedule-small-screens .cards .card .card-content {
         display: flex;
         flex-direction: column;
+        gap: 1rem;
     }
     .schedule-small-screens .cards .card .card-content   .card-content-audi {
-        margin-top: 1.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 1rem;
     }
     .card-content-audi img{
         display: flex;
@@ -170,7 +239,6 @@
         flex-direction: column;
     }
     .schedule-small-screens .cards .card .card-content   .card-content-audi {
-        margin-top: 1.5rem;
         display: flex;
         justify-content: center;
         align-items: center;

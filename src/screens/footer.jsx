@@ -26,17 +26,23 @@ const Footer = () => {
             <div className="footer-right">
                 {/* Developers */}
                 <div className="developers">
-                    <div className="developer-item">
+                    <div className="developer-item" >
                         <h3>DESIGNER AND DEVELOPER: Alok Pandit</h3>
+                        <a href="https://www.linkedin.com/in/alokpandit03/" target="_blank" rel="noopener noreferrer ">
                         <img src={linkedin} alt="LinkedIn" />
+                        </a>
                     </div>
                     <div className="developer-item">
                         <h3>BACKEND DEVELOPER: Mannu Kumar</h3>
-                        <img src={linkedin} alt="LinkedIn" />
+                        <a href="https://www.linkedin.com/in/mannu-kumar-38a280246/" target="_blank" rel="noopener noreferrer ">
+                            <img src={linkedin} alt="LinkedIn"/>
+                        </a>
                     </div>
                     <div className="developer-item">
                         <h3>BACKEND DEVELOPER: Lakshay Bhatia</h3>
-                        <img src={linkedin} alt="LinkedIn" />
+                        <a href="https://www.linkedin.com/in/lakshay-bhatia-3b52b8256/" target="_blank" rel="noopener noreferrer ">
+                            <img src={linkedin} alt="LinkedIn"/>
+                        </a>
                     </div>
                 </div>
                 {/* Contact Us Button */}
