@@ -10,12 +10,16 @@
   position: relative; /* Ensures rules section stays within bounds of the card */
   display: flex;
   flex-direction: column;
-  overflow-y: hidden; /* Hide overflow by default */
+  overflow-y:hidden ; /* Hide overflow by default */
+}
+
+.event-card::-webkit-scrollbar {
+  display: none;  /* Hides the scrollbar */
 }
 
 .event-card img {
   width: 100%;
-  height: 50%;
+  height:65%;
   border-radius: 8px;
   max-height: 250px; /* Limit the height to prevent image from covering the entire card */
   object-fit: cover; /* Maintain aspect ratio and crop the image if necessary */
