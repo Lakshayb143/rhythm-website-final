@@ -180,8 +180,8 @@ body {
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
   }
+
 
   /* Subtitle */
   .sub-title {

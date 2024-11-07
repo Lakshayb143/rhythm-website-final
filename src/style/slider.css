@@ -15,7 +15,7 @@
     .slider-container {
         position: relative;
         top: 1.5rem;
-        height: 200px;
+        height: 250px;
         border-top: 10px solid rgba(141, 138, 242, 1);
         border-bottom: 10px solid rgba(141, 138, 242, 1);
     }

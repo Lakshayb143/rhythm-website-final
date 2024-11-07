@@ -51,7 +51,7 @@ const Body = () => {
             <div className="overlay" style={{height}}></div>
 
             {/* Centered Text */}
-            <h1 className="main-title">RHYTHM'24</h1>
+                <h1 className="main-title " style={{ animationDuration: '5s' }}>RHYTHM'24</h1>
             <h3 className="sub-title">
                 THE OFFICIAL CULTURAL FEST OF DCRUST , MURTHAL
             </h3>

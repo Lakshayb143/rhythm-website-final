@@ -22,7 +22,7 @@ const scheduleCards = () => {
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">10:00 PM TO 11:00 PM</h3>
                             </div>
                         </div>
 
@@ -39,7 +39,7 @@ const scheduleCards = () => {
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">11:00 PM TO 12:00 PM</h3>
                             </div>
                         </div>
 
@@ -56,7 +56,7 @@ const scheduleCards = () => {
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">12:00 PM TO 01:00 PM</h3>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const scheduleCards = () => {
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">01:00 PM TO 02:00 PM</h3>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ const scheduleCards = () => {
                             </div>
                             <div className="card-content-audi">
                                 <img src={clock} width={20} height={15} alt="" className=" h-6 w-6"/>
-                                <h3 className="ml-2 text-base">12:10 PM TO 12:40 PM</h3>
+                                <h3 className="ml-2 text-base">02:00 PM TO 03:00 PM</h3>
                             </div>
                         </div>
                     </div>

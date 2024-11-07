@@ -16,20 +16,30 @@ const SponsersBody = () => {
         className="relative 2xl:h-[500px]  bg-background-color w-screen flex items-center justify-center">
         {/*PREVIOUS IMAGE*/}
 
-        <div className=" w-screen flex overflow-hidden scrollbar slider-container">
+        <div className="w-screen flex overflow-hidden scrollbar slider-container">
             <div className="scroll-content">
                 <img src={slider1} alt="Slide 1"/>
                 <img src={slider2} alt="Slide 2"/>
                 <img src={slider3} alt="Slide 3"/>
                 <img src={slider4} alt="Slide 4"/>
                 <img src={slider5} alt="Slide 5"/>
-                <img src={slider6} alt="Slide 1"/>
-                <img src={slider7} alt="Slide 2"/>
-                <img src={slider8} alt="Slide 3"/>
-                <img src={slider9} alt="Slide 4"/>
-                <img src={slider1} alt="Slide 5"/>
+                <img src={slider6} alt="Slide 6"/>
+                <img src={slider7} alt="Slide 7"/>
+                <img src={slider8} alt="Slide 8"/>
+                <img src={slider9} alt="Slide 9"/>
+
+                <img src={slider1} alt="Slide 1"/>
+                <img src={slider2} alt="Slide 2"/>
+                <img src={slider3} alt="Slide 3"/>
+                <img src={slider4} alt="Slide 4"/>
+                <img src={slider5} alt="Slide 5"/>
+                <img src={slider6} alt="Slide 6"/>
+                <img src={slider7} alt="Slide 7"/>
+                <img src={slider8} alt="Slide 8"/>
+                <img src={slider9} alt="Slide 9"/>
             </div>
         </div>
+
 
     </div>)
 }

@@ -113,7 +113,7 @@ const EmblaCarousel = (props) => {
 
   return (
     <div className="embla">
-      <h1 className="gallery-heading">GALLERY</h1>
+      <h1 className="gallery-heading"> GALLERY </h1>
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {images.map((index) => (
