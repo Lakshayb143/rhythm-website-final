@@ -1,0 +1,208 @@
+/* General Event Card Styles */
+.event-card {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensures rules section stays within bounds of the card */
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden; /* Hide overflow by default */
+}
+
+.event-card img {
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+  max-height: 250px; /* Limit the height to prevent image from covering the entire card */
+  object-fit: cover; /* Maintain aspect ratio and crop the image if necessary */
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.event-card h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.event-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.event-card h6 {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+/* Button Styles */
+.toggle-button {
+  padding: 2rem;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+/* Rules Section Styles */
+/* Rules Section (Modal-like Slide In) */
+.rules {
+  position: absolute; /* Position it absolutely within the card */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent background */
+  color: white;
+  overflow-y: auto;
+  padding: 20px;
+  max-height: 80%; /* Ensure the modal is contained within the card */
+  transform: translateY(-100%); /* Initially hidden above */
+  transition: transform 0.5s ease, opacity 0.3s ease; /* Smooth sliding and fading */
+  opacity: 0;
+  z-index: -1; /* Keep it behind until activated */
+  border-radius: 8px;
+}
+
+/* When Rules Are Shown (Active State) */
+.rules.show {
+  transform: translateY(0); /* Slide in from the top */
+  opacity: 1;
+  z-index: 10; /* Bring to the front */
+}
+
+/* Close Button for Rules */
+.rules .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.rules .close-btn:hover {
+  color: #ff6f61;
+}
+
+.rules p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 20px;
+  word-wrap: break-word;
+}
+
+/* Event Card Style When Rules are Shown */
+.event-card.show-rules {
+  position: relative; /* Needed to position the absolute modal within the card */
+}
+
+/* Smooth button for toggling */
+.toggle-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 5px;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .event-card {
+    margin-right: 2rem;
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .event-card img {
+    height: 50%;
+    width: 90%;
+  }
+
+  .event-card h4 {
+    font-size: 1.3rem;
+  }
+
+  .event-card p {
+    font-size: 0.9rem;
+  }
+
+  .event-card h6 {
+    font-size: 0.8rem;
+  }
+
+  .rules {
+    padding: 15px;
+    font-size: 0.85rem;
+  }
+
+  .toggle-button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-widt`h: 480px) {
+  .event-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .event-card img {
+    height: 50%;
+    width : 90%;
+  }
+
+  .event-card p {
+    font-size: 0.85rem;
+  }
+
+  .rules {
+    padding: 12px;
+    font-size: 0.8rem;
+  }
+
+  .toggle-button {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+}
