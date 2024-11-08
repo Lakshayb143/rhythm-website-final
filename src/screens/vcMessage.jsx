@@ -4,7 +4,7 @@ const Message = () => {
     return (
 
             <div className="message-container-2k24">
-                <div className="container-heading"><h1>VC’s Vision for RHYTHM'24
+                <div className="container-heading"><h1>VC’s Vision for RHYTHM&#39;24
                 </h1></div>
                 {/*Main container*/}
                 <div className="message-container-image">

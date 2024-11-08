@@ -97,6 +97,7 @@
         height: 9rem;
         width: 18rem;
         border-radius: 1rem;
+        color: white;
     }
     .schedule-small-screens .cards .card:hover {
         background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
@@ -111,6 +112,7 @@
     .schedule-small-screens .cards .card .card-content {
         display: flex;
         flex-direction: column;
+        color: white;
 
     }
     .schedule-small-screens .cards .card .card-content   .card-content-audi {
@@ -171,12 +173,14 @@
     .schedule-small-screens .cards .card h1 {
         font-size: 1.2rem;
         font-weight: bold;
+        color: white;
     }
 
     .schedule-small-screens .cards .card .card-content {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        color: white;
     }
     .schedule-small-screens .cards .card .card-content   .card-content-audi {
         display: flex;
@@ -226,6 +230,7 @@
         height: 9.5rem;
         width: 16rem;
         border-radius: 1rem;
+        color: white;
     }
     .schedule-small-screens .cards .card:hover {
         background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
