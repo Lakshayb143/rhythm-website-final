@@ -1,4 +1,8 @@
 @media (min-width: 1201px) {
+    .rulebook-container{
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url("../assets/images/background.jpeg");
+
+    }
     .brochure-card {
         display: flex;
         align-items: center;
@@ -63,6 +67,10 @@
     .brochure-card:hover {
         background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
         color: white;
+    }
+    .rulebook-container{
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url("../assets/images/background.jpeg");
+
     }
 }
 

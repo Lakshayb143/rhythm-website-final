@@ -6,7 +6,7 @@ import pdf from '../assets/docs/rhythm.pdf'
 
 const Brochure = () => {
     return (
-        <div className="h-screen w-screen bg-background-color overflow-x-hidden">
+        <div className="h-screen w-screen bg-background-color overflow-x-hidden background-container" >
             <Navbar/>
             <div className="event-container w-screen flex justify-center flex-col items-center">
                 <h1 className="event-mainheading">BROCHURE</h1>

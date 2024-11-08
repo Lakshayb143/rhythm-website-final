@@ -5,7 +5,7 @@ import '../style/rulebook.css'
 
 const Rulebook = () => {
     return (
-        <div className="h-screen w-screen bg-background-color overflow-x-hidden">
+        <div className="h-screen w-screen bg-background-color overflow-x-hidden rulebook-container">
             <Navbar/>
             {/*RULE BOOK*/}
 

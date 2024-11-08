@@ -1,753 +1,771 @@
 /*Navbar*/
 
 @media (min-width: 1201px) {
-  .event-container {
-    width: 100%;
-    padding: 1.5rem;
-    margin: 1rem;
-  }
-  .event-container h1 {
-    font-size: 4rem;
-    margin-top: 5rem;
-    font-weight: 900;
-    color: transparent;
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+    .event-container {
+        width: 100%;
+        padding: 1.5rem;
+        margin: 1rem;
+    }
 
-  .event-cards-container {
-    margin-top: 6rem;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem;
-    padding: 2rem;
-  }
 
-  .event-card {
-    margin: 2rem;
-    padding: 2rem;
-    background-color: rgba(36, 36, 36, 1);
-    height: 30rem;
-    width: 25rem;
-    border-radius: 1.5rem;
 
-  }
-  .event-card img {
-    border-radius: 1rem 0 0 1rem;
-  }
+    .event-container h1 {
+        font-size: 4rem;
+        margin-top: 5rem;
+        font-weight: 900;
+        color: transparent;
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
 
-  .event-card h1 {
-    margin-top: 1rem;
-    font-size: 3rem;
-    font-weight: 600;
-  }
+    .event-cards-container {
+        margin-top: 6rem;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+        padding: 2rem;
+    }
 
-  .event-card button {
-    margin-top: 2rem;
-  }
+    .event-card {
+        margin: 2rem;
+        padding: 2rem;
+        background-color: rgba(36, 36, 36, 1);
+        height: 30rem;
+        width: 25rem;
+        border-radius: 1.5rem;
+
+    }
+
+    .event-card img {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .event-card h1 {
+        margin-top: 1rem;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .event-card button {
+        margin-top: 2rem;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .rhythm-logo {
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .menu {
-    width: 100%;
-  }
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center !important;
-    height: 4.5rem;
-  }
-  .navbar .logo {
-    display: flex;
-  }
-  .navbar h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    align-self: center;
-    text-align: center;
-  }
-  .navbar .logo img {
-    position: relative;
-    left: 0;
-    align-self: center;
-    margin-right: 0;
-    height: 2.5rem;
-  }
-  .navbar .nav-links {
-    display: none;
-  }
-
-  .navbar .nav-links .nav-link {
-    font-weight: 400;
-  }
-
-  /* Container */
-  .body-container {
-    position: relative;
-    overflow: hidden;
-  }
-
-  /* Slider Image */
-  .slider-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  /* Overlay */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  /* Main Title */
-  .main-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3rem;
-    font-weight: 900;
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    -webkit-background-clip: text;
-    color: transparent;
-    text-align: center;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  /* Subtitle */
-  .sub-title {
-    position: absolute;
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin-top: 10px;
-    font-size: 0.8rem;
-    width: 100vw;
-    font-weight: 600;
-    color: white;
-    animation: pulse 3s infinite;
-  }
-
-  /* Info Container */
-  .info-container {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 40px;
-  }
-
-  /* Info Item */
-  .info-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .icon {
-    width: 24px;
-    height: 24px;
-  }
-
-  .info-text {
-    color: white;
-    font-weight: 600;
-    font-size: 0.8rem;
-    width: 4rem;
-  }
-
-  /* Register Button */
-  .register-button {
-    position: absolute;
-    top: 80%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    font-weight: 600;
-    font-size: 0.8rem;
-    color: white;
-    border: 2px solid rgba(235, 126, 241, 1);
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: transparent;
-    transition: background-color 0.3s, border 0.3s;
-  }
-
-  .register-button:hover {
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    border: none;
-  }
-
-  /* Pulse Animation */
-  @keyframes pulse {
-    0%,
-    100% {
-      opacity: 1;
+    .rhythm-logo {
+        height: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    50% {
-      opacity: 0.7;
+
+    .menu {
+        width: 100%;
     }
-  }
 
-  /* Countdown.css */
-
-  .container {
-    height: 16rem;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .centered {
-    position: relative;
-    top: 2rem;
-  }
-
-  .main-heading {
-    text-align: center;
-    color: white;
-    font-weight: 800;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    animation: pulse 3s infinite;
-  }
-
-  .sub-heading {
-    color: white;
-    font-size: 1rem;
-    padding: 0 2.5rem;
-    font-weight: bold;
-    margin-top: 1.5rem;
-    word-wrap: break-word;
-  }
-
-  .timer-container {
-    display: flex;
-    width: 50%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 4rem;
-  }
-
-  .time-box {
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    border-radius: 1rem;
-    padding-top: 1.5rem;
-    width: 4.5rem;
-    height: 5rem;
-    text-align: center;
-  }
-
-  .time-number {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 900;
-  }
-
-  .time-label {
-    color: white;
-    font-size: 0.6rem;
-    font-weight: 700;
-  }
-
-  @keyframes pulse {
-    0%,
-    100% {
-      opacity: 1;
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        height: 4.5rem;
     }
-    50% {
-      opacity: 0.5;
-    }
-  }
 
-  .event-cards-container {
-    margin-right : 4rem;
-  }
+    .navbar .logo {
+        display: flex;
+    }
+
+    .navbar h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        align-self: center;
+        text-align: center;
+    }
+
+    .navbar .logo img {
+        position: relative;
+        left: 0;
+        align-self: center;
+        margin-right: 0;
+        height: 2.5rem;
+    }
+
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .navbar .nav-links .nav-link {
+        font-weight: 400;
+    }
+
+    /* Container */
+    .body-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Slider Image */
+    .slider-image {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* Overlay */
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    /* Main Title */
+    .main-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-weight: 900;
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Subtitle */
+    .sub-title {
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 10px;
+        font-size: 0.8rem;
+        width: 100vw;
+        font-weight: 600;
+        color: white;
+        animation: pulse 3s infinite;
+    }
+
+    /* Info Container */
+    .info-container {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 40px;
+    }
+
+    /* Info Item */
+    .info-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .info-text {
+        color: white;
+        font-weight: 600;
+        font-size: 0.8rem;
+        width: 4rem;
+    }
+
+    /* Register Button */
+    .register-button {
+        position: absolute;
+        top: 80%;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: white;
+        border: 2px solid rgba(235, 126, 241, 1);
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: transparent;
+        transition: background-color 0.3s, border 0.3s;
+    }
+
+    .register-button:hover {
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        border: none;
+    }
+
+    /* Pulse Animation */
+    @keyframes pulse {
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.7;
+        }
+    }
+
+    /* Countdown.css */
+    .container {
+        height: 16rem;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .centered {
+        position: relative;
+        top: 2rem;
+    }
+
+    .main-heading {
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        animation: pulse 3s infinite;
+    }
+
+    .sub-heading {
+        color: white;
+        font-size: 1rem;
+        padding: 0 2.5rem;
+        font-weight: bold;
+        margin-top: 1.5rem;
+        word-wrap: break-word;
+    }
+
+    .timer-container {
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    .time-box {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        border-radius: 1rem;
+        padding-top: 1.5rem;
+        width: 4.5rem;
+        height: 5rem;
+        text-align: center;
+    }
+
+    .time-number {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+    .time-label {
+        color: white;
+        font-size: 0.6rem;
+        font-weight: 700;
+    }
+
+    @keyframes pulse {
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.5;
+        }
+    }
+
+    .event-cards-container {
+        margin-right: 4rem;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .rhythm-logo {
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .menu {
-    width: 100%;
-  }
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center !important;
-    height: 5rem;
-  }
-  .navbar .logo {
-    display: flex;
-  }
-  .navbar h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    align-self: center;
-    text-align: center;
-  }
-  .navbar .logo img {
-    position: relative;
-    left: 0;
-    align-self: center;
-    margin-right: 1rem;
-    height: 2rem;
-    width: 2rem;
-  }
-  .navbar .nav-links {
-    display: none;
-  }
-
-  .navbar .nav-links .nav-link {
-    font-weight: 400;
-  }
-  /* Container */
-  .body-container {
-    position: relative;
-    overflow: hidden;
-  }
-
-  /* Slider Image */
-  .slider-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .event-cards-container{
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* Overlay */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  /* Main Title */
-  .main-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    font-size: 4rem;
-    font-weight: 900;
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    -webkit-background-clip: text;
-    color: transparent;
-    text-align: center;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  /* Subtitle */
-  .sub-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin-top: 10px;
-    font-size: 1.2rem;
-    width: 100vw;
-    font-weight: 600;
-    color: white;
-    animation: pulse 3s infinite;
-  }
-
-  /* Info Container */
-  .info-container {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 40px;
-  }
-
-  /* Info Item */
-  .info-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .icon {
-    width: 30px;
-    height: 30px;
-  }
-
-  .info-text {
-    color: white;
-    text-align: center;
-    font-weight: 600;
-    font-size: 1rem;
-    width: 4rem;
-  }
-
-  /* Register Button */
-  .register-button {
-    position: absolute;
-    top: 75%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    font-weight: 600;
-    font-size: 0.8rem;
-    font-stretch: ultra-expanded;
-    color: white;
-    border: 2px solid rgba(235, 126, 241, 1);
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: transparent;
-    transition: background-color 0.3s, border 0.3s;
-  }
-
-  .register-button:hover {
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    border: none;
-  }
-
-  /* Pulse Animation */
-  @keyframes pulse {
-    0%,
-    100% {
-      opacity: 1;
+    .rhythm-logo {
+        height: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    50% {
-      opacity: 0.7;
+
+    .menu {
+        width: 100%;
     }
-  }
 
-  /* Countdown.css */
-
-  .container {
-    height: 17rem;
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-  }
-
-  .centered {
-    position: relative;
-    top: 2rem;
-  }
-
-  .main-heading {
-    text-align: center;
-    color: white;
-    font-weight: 800;
-    font-size: 2.2rem;
-    animation: pulse 3s infinite;
-  }
-
-  .sub-heading {
-    color: white;
-    font-size: 1rem;
-    padding: 0 2.5rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    word-wrap: break-word;
-  }
-
-  .timer-container {
-    display: flex;
-    width: 50%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 6rem;
-  }
-
-  .time-box {
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    border-radius: 1rem;
-    padding-top: 1.5rem;
-    width: 6.45rem;
-    height: 6.5rem;
-    text-align: center;
-  }
-
-  .time-number {
-    color: white;
-    font-size: 2rem;
-    font-weight: 900;
-  }
-
-  .time-label {
-    color: white;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-
-  @keyframes pulse {
-    0%,
-    100% {
-      opacity: 1;
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        height: 5rem;
     }
-    50% {
-      opacity: 0.5;
+
+    .navbar .logo {
+        display: flex;
     }
-  }
+
+    .navbar h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        align-self: center;
+        text-align: center;
+    }
+
+    .navbar .logo img {
+        position: relative;
+        left: 0;
+        align-self: center;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .navbar .nav-links .nav-link {
+        font-weight: 400;
+    }
+
+    /* Container */
+    .body-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Slider Image */
+    .slider-image {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .event-cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Overlay */
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    /* Main Title */
+    .main-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        font-size: 4rem;
+        font-weight: 900;
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Subtitle */
+    .sub-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 10px;
+        font-size: 1.2rem;
+        width: 100vw;
+        font-weight: 600;
+        color: white;
+        animation: pulse 3s infinite;
+    }
+
+    /* Info Container */
+    .info-container {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 40px;
+    }
+
+    /* Info Item */
+    .info-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .info-text {
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1rem;
+        width: 4rem;
+    }
+
+    /* Register Button */
+    .register-button {
+        position: absolute;
+        top: 75%;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 0.8rem;
+        font-stretch: ultra-expanded;
+        color: white;
+        border: 2px solid rgba(235, 126, 241, 1);
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: transparent;
+        transition: background-color 0.3s, border 0.3s;
+    }
+
+    .register-button:hover {
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        border: none;
+    }
+
+    /* Pulse Animation */
+    @keyframes pulse {
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.7;
+        }
+    }
+
+    /* Countdown.css */
+    .container {
+        height: 17rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .centered {
+        position: relative;
+        top: 2rem;
+    }
+
+    .main-heading {
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        font-size: 2.2rem;
+        animation: pulse 3s infinite;
+    }
+
+    .sub-heading {
+        color: white;
+        font-size: 1rem;
+        padding: 0 2.5rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        word-wrap: break-word;
+    }
+
+    .timer-container {
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 6rem;
+    }
+
+    .time-box {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        border-radius: 1rem;
+        padding-top: 1.5rem;
+        width: 6.45rem;
+        height: 6.5rem;
+        text-align: center;
+    }
+
+    .time-number {
+        color: white;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .time-label {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    @keyframes pulse {
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.5;
+        }
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .rhythm-logo {
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .navbar {
-    display: flex;
-    align-items: center;
-    height: 6rem;
-    justify-content: space-between;
-  }
-
-  .navbar .logo {
-    position: relative;
-    font-weight: 900;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .navbar .logo h1 {
-    font-size: 2rem;
-  }
-  .navbar .logo img {
-    display: none;
-  }
-  .navbar .nav-links {
-    position: relative;
-    right: 0;
-    margin: 1rem;
-    display: flex;
-    justify-content: space-around;
-    width: 95%;
-    font-size: 1rem;
-    gap: 0.5rem;
-  }
-
-  .navbar .nav-links .nav-link {
-    font-weight: 400;
-  }
-
-  /* Container */
-  .body-container {
-    position: relative;
-    overflow: hidden;
-  }
-
-  /* Slider Image */
-  .slider-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  /* Overlay */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  /* Main Title */
-  .main-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    font-size: 5.5rem;
-    font-weight: 900;
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    -webkit-background-clip: text;
-    color: transparent;
-    text-align: center;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  /* Subtitle */
-  .sub-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin-top: 10px;
-    font-size: 1.6rem;
-    width: 100vw;
-    font-weight: 600;
-    color: white;
-    animation: pulse 3s infinite;
-  }
-
-  /* Info Container */
-  .info-container {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 50px;
-  }
-
-  /* Info Item */
-  .info-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .icon {
-    width: 30px;
-    height: 30px;
-  }
-
-  .info-text {
-    color: white;
-    text-align: center;
-    font-weight: 600;
-    font-size: 1rem;
-    width: 4rem;
-  }
-
-  /* Register Button */
-  .register-button {
-    position: absolute;
-    top: 75%;
-    transform: translateX(-50%);
-    padding: 15px 30px;
-    font-weight: 900;
-    font-size: 1rem;
-    font-stretch: ultra-expanded;
-    color: white;
-    border: 2px solid rgba(235, 126, 241, 1);
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: transparent;
-    transition: background-color 0.3s, border 0.3s;
-  }
-
-  .register-button:hover {
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    border: none;
-  }
-
-  /* Pulse Animation */
-  @keyframes pulse {
-    0%,
-    100% {
-      opacity: 1;
+    .rhythm-logo {
+        height: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    50% {
-      opacity: 0.7;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        height: 6rem;
+        justify-content: space-between;
     }
-  }
-  /* Countdown.css */
 
-  .container {
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-  }
-
-  .centered {
-    position: relative;
-    top: 2rem;
-  }
-
-  .main-heading {
-    text-align: center;
-    color: white;
-    font-weight: 800;
-    font-size: 2.5rem;
-    animation: pulse 3s infinite;
-  }
-
-  .sub-heading {
-    color: white;
-    font-size: 1.5rem;
-    padding: 0 2.5rem;
-    font-weight: bold;
-    margin-top: 1.6rem;
-    word-wrap: break-word;
-  }
-
-  .timer-container {
-    display: flex;
-    width: 50%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 8rem;
-  }
-
-  .time-box {
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
-    border-radius: 1rem;
-    padding-top: 1.5rem;
-    width: 10rem;
-    height: 7.5rem;
-    text-align: center;
-  }
-
-  .time-number {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 900;
-  }
-
-  .time-label {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-
-  @keyframes pulse {
-    0%,
-    100% {
-      opacity: 1;
+    .navbar .logo {
+        position: relative;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    50% {
-      opacity: 0.5;
+
+    .navbar .logo h1 {
+        font-size: 2rem;
     }
-  }
+
+    .navbar .logo img {
+        display: none;
+    }
+
+    .navbar .nav-links {
+        position: relative;
+        right: 0;
+        margin: 1rem;
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+        font-size: 1rem;
+        gap: 0.5rem;
+    }
+
+    .navbar .nav-links .nav-link {
+        font-weight: 400;
+    }
+
+    /* Container */
+    .body-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Slider Image */
+    .slider-image {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* Overlay */
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    /* Main Title */
+    .main-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        font-size: 5.5rem;
+        font-weight: 900;
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Subtitle */
+    .sub-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 10px;
+        font-size: 1.6rem;
+        width: 100vw;
+        font-weight: 600;
+        color: white;
+        animation: pulse 3s infinite;
+    }
+
+    /* Info Container */
+    .info-container {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 50px;
+    }
+
+    /* Info Item */
+    .info-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .info-text {
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1rem;
+        width: 4rem;
+    }
+
+    /* Register Button */
+    .register-button {
+        position: absolute;
+        top: 75%;
+        transform: translateX(-50%);
+        padding: 15px 30px;
+        font-weight: 900;
+        font-size: 1rem;
+        font-stretch: ultra-expanded;
+        color: white;
+        border: 2px solid rgba(235, 126, 241, 1);
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: transparent;
+        transition: background-color 0.3s, border 0.3s;
+    }
+
+    .register-button:hover {
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        border: none;
+    }
+
+    /* Pulse Animation */
+    @keyframes pulse {
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.7;
+        }
+    }
+    /* Countdown.css */
+    .container {
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .centered {
+        position: relative;
+        top: 2rem;
+    }
+
+    .main-heading {
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        font-size: 2.5rem;
+        animation: pulse 3s infinite;
+    }
+
+    .sub-heading {
+        color: white;
+        font-size: 1.5rem;
+        padding: 0 2.5rem;
+        font-weight: bold;
+        margin-top: 1.6rem;
+        word-wrap: break-word;
+    }
+
+    .timer-container {
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 8rem;
+    }
+
+    .time-box {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        background: linear-gradient(90deg, #f678f0 0%, #00e8ff 186.42%);
+        border-radius: 1rem;
+        padding-top: 1.5rem;
+        width: 10rem;
+        height: 7.5rem;
+        text-align: center;
+    }
+
+    .time-number {
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+    .time-label {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    @keyframes pulse {
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.5;
+        }
+    }
 }
