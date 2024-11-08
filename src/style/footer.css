@@ -2,7 +2,6 @@
 @media (min-width: 1201px) {
     .footer-container {
         height: 21rem; /* Adjust for 2xl:h-96 */
-        background-color: var(--background-color); /* Background color */
         display: flex;
         justify-content: space-around;
         align-items: center;

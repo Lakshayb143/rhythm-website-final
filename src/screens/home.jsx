@@ -7,15 +7,17 @@ import ScheduleCards from "./scheduleCards.jsx";
 import SponserTitle from "./sponserTitle.jsx";
 import SponsersBody from "./sponserBody.jsx";
 import Footer from "./footer.jsx";
+import Message from "./vcMessage.jsx";
 
 
 const Home = () => {
     return (
         <div className="h-screen w-screen bg-background-color overflow-x-hidden cursor-custom">
          <Navbar />
-            <Body/>
+          <Body/>
             <Countdown/>
             <About/>
+            <Message/>
             <Schedule/>
             <ScheduleCards/>
             <SponserTitle/>

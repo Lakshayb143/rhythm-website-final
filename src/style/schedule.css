@@ -40,7 +40,7 @@
     .schedule-line {
         height: 0.2rem;
         width: 10rem;
-        background-color: white;
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient for line */
     }
 
     .schedule-year {
@@ -91,7 +91,7 @@
     .schedule-line {
         height: 0.1rem;
         width: 5.5rem;
-        background-color: white;
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient for line */
     }
 
     .schedule-year {
@@ -141,7 +141,7 @@
     .schedule-line {
         height: 0.3rem;
         width: 9rem;
-        background-color: white;
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient for line */
     }
 
     .schedule-year {
@@ -190,7 +190,7 @@
     .schedule-line {
         height: 0.3rem;
         width: 9rem;
-        background-color: white;
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient for line */
     }
 
     .schedule-year {

@@ -39,7 +39,7 @@ const Events = () => {
     <div className="events h-screen w-screen bg-background-color overflow-x-hidden">
       <Navbar />
       {/*EVENT CARDS*/}
-      <div className="event-container w-screen">
+      <div className="event-container w-screen ">
         <h1 className="event-mainheading">ALL - EVENTS</h1>
       </div>
 
@@ -48,7 +48,7 @@ const Events = () => {
 
       {/*CARDS*/}
 
-      <div className="event-cards-container">
+      <div className="event-cards-container ">
         {events.length > 0 ? (
           events.map((single_event) => (
             <EventCards

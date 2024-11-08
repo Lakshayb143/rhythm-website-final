@@ -16,7 +16,7 @@ const Brochure = () => {
                 <a href={pdf} download="rulebook" className="text-white">
                     <div className="brochure-card">
                         <img src={gif} alt="brochure"/>
-                        Download brochure
+                        Download Brochure
                     </div>
                 </a>
             </div>

@@ -59,7 +59,7 @@ const Body = () => {
             <div className="info-container">
                 <div className="info-item">
                     <img src={calendar} alt="calendar icon" className="icon"/>
-                    <h3 className="info-text">23-24 NOV'24</h3>
+                    <h3 className="info-text">20-22 NOV'24</h3>
                 </div>
 
                 <div className="info-item">

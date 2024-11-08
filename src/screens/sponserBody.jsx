@@ -13,7 +13,7 @@ import '../style/slider.css';
 
 const SponsersBody = () => {
     return (<div
-        className="relative 2xl:h-[500px]  bg-background-color w-screen flex items-center justify-center">
+        className="relative 2xl:h-[600px]  bg-background-color w-screen flex items-center justify-center">
         {/*PREVIOUS IMAGE*/}
 
         <div className="w-screen flex overflow-hidden scrollbar slider-container">

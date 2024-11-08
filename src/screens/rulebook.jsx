@@ -1,7 +1,7 @@
 import Navbar from "./navbar.jsx";
 import pdf from "../assets/docs/rhythm.pdf";
-import gif from "../assets/images/brochure.gif";
 import search from "../assets/images/search.gif";
+import '../style/rulebook.css'
 
 const Rulebook = () => {
     return (
@@ -12,8 +12,11 @@ const Rulebook = () => {
             <div className="event-container w-screen flex justify-center flex-col items-center">
                 <h1 className="event-mainheading">Welcome to RHYTHM'24! 🎉
                 </h1>
-                <h6 className="mt-10 text-xl font-base pl-10 pr-10 brochure-subheading text-white">Get ready to unleash the energy, creativity, and fun at RHYTHM'24, the biggest fest of the year! Before you dive into the excitement, take a moment to explore the Rulebook — your guide to participating in various events and ensuring a smooth and fair experience for everyone!
-                </h6>
+                <p className="mt-10 text-xl font-base pl-10 pr-10  text-white brochure-subheading">Get ready to unleash the
+                    energy, creativity, and fun at RHYTHM'24, the biggest fest of the year! Before you dive into the
+                    excitement, take a moment to explore the Rulebook — your guide to participating in various events
+                    and ensuring a smooth and fair experience for everyone!
+                </p>
 
                 <a href={pdf} download="rulebook" className="text-white">
                     <div className="brochure-card">

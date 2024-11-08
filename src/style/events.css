@@ -36,6 +36,7 @@
     height: 30rem;
     width: 25rem;
     border-radius: 1.5rem;
+
   }
   .event-card img {
     border-radius: 1rem 0 0 1rem;
@@ -336,6 +337,10 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  .event-cards-container{
+    display: flex;
+    flex-direction: column;
   }
 
   /* Overlay */

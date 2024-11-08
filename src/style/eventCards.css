@@ -10,7 +10,13 @@
   position: relative; /* Ensures rules section stays within bounds of the card */
   display: flex;
   flex-direction: column;
+  align-items: center;
   overflow-y:hidden ; /* Hide overflow by default */
+
+}
+.event-cards-container{
+  display: flex;
+
 }
 
 .event-card::-webkit-scrollbar {
@@ -26,6 +32,8 @@
   border-radius: 8px;
   object-fit: cover;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .event-card h4 {
@@ -178,6 +186,13 @@
     padding: 10px 15px;
     font-size: 0.9rem;
   }
+
+  .event-cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -199,12 +214,66 @@
   .event-card p {
     font-size: 0.85rem;
   }
+  .event-cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .rules {
     padding: 12px;
     font-size: 0.8rem;
   }
 
+  .toggle-button {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .event-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensures rules section stays within bounds of the card */
+    display: flex;
+    flex-direction: column;
+    overflow-y:hidden ; /* Hide overflow by default */
+  }
+  .event-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .event-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .event-card img {
+    height: 50%;
+    width : 90%;
+  }
+
+  .event-card p {
+    font-size: 0.85rem;
+  }
+
+  .rules {
+    padding: 12px;
+    font-size: 0.8rem;
+  }
+.event-cards-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   .toggle-button {
     padding: 6px 10px;
     font-size: 0.8rem;

@@ -101,9 +101,10 @@ const EmblaCarousel = (props) => {
       try {
         const response = await axios.get(API);
         setImages(response.data);
+        setLoading(false)
         // setLoading(false);
       } catch (error) {
-        // setLoading(false);
+        setLoading(false);
         setError("Cannot fetch images due to error", error);
       }
     };
@@ -116,20 +117,24 @@ const EmblaCarousel = (props) => {
       <h1 className="gallery-heading"> GALLERY </h1>
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {images.map((index) => (
-            <div className="embla__slide" >
-              <div className="embla__parallax">
-                <div className="embla__parallax__layer">
-                  <img
-                    className="embla__slide__img embla__parallax__img"
-                    src={index.image} 
-                    alt="Your alt text"
-                    
-                  />
+
+          {images ?
+              (images.map((index) => <div className="embla__slide" >
+                <div className="embla__parallax">
+                  <div className="embla__parallax__layer">
+                    <img
+                      className="embla__slide__img embla__parallax__img"
+                      src={index.image}
+                      alt="Your alt text"
+
+                    />
+                  </div>
                 </div>
+              </div>)):<div className="loading-message text-white font-bold">
+                Please wait...
               </div>
-            </div>
-          ))}
+
+          }
         </div>
       </div>
 

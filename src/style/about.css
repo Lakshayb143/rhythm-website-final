@@ -5,7 +5,8 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        max-height: 50rem;
+        max-height: 56rem;
+        border-bottom: 1px solid white;
     }
 
     .main-heading-about {
@@ -17,7 +18,7 @@
 
     .description-about {
         color: white;
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: 400;
         text-align: start;
         margin-top: 1.7rem;
@@ -35,10 +36,12 @@
     }
 
     .image-about {
-        height: 24rem;
-        width: 40rem;
+        height: 26rem;
+        width: 45rem;
         padding: 1.25rem;
+        object-fit: cover;
     }
+
 
     .message-container {
         display: flex;
@@ -51,9 +54,9 @@
         text-align: start;
         color: rgba(235, 126, 241, 1);
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 1.2rem;
         flex-wrap: wrap;
-        right: 2.5rem;
+        right: 2rem;
         width: 1020px;
         margin-top: 1rem;
     }
@@ -61,8 +64,8 @@
     .subtitle-about {
         color: white;
         font-weight: bold;
-        font-size: 1.5rem;
-        margin-top: 2rem;
+        font-size: 2rem;
+        margin-top: 1.5rem;
     }
 
     .list {
@@ -71,13 +74,13 @@
         position: absolute;
         color: white;
         gap: 1rem;
-        top: 11rem;
+        top: 12rem;
         list-style-type: none;
     }
 
     .list-item {
         text-align: start;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -226,6 +229,7 @@
         color: white;
         gap: 0.5rem;
         top: 5rem;
+
         list-style-type: none;
     }
 
@@ -242,6 +246,7 @@
         position: relative;
         display: flex;
         flex-direction: column;
+        margin-bottom: 5rem;
     }
 
     .main-heading-about {
@@ -304,9 +309,12 @@
         gap: 0.5rem;
         top: 4rem;
         list-style-type: none;
+        align-items: center;
+        justify-content: center;
     }
 
     .list-item {
+        margin-top: 0.2rem;
         text-align: start;
         font-size: 1rem;
         padding: 0.5rem ;
