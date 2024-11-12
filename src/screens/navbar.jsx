@@ -29,6 +29,8 @@ const Navbar = () => {
                 <Link to="/events" className="animate-underline text-white hover:text-white nav-link">EVENTS</Link>
                 <Link to="/schedule" className="animate-underline text-white hover:text-white nav-link hidden">SCHEDULE</Link>
                 <Link to="/brochure" className="animate-underline text-white hover:text-white nav-link">BROCHURE</Link>
+                <Link to="/contact" className="animate-underline text-white hover:text-white nav-link">CONTACT US</Link>
+
             </div>
 
             {isOpen && (
@@ -40,6 +42,7 @@ const Navbar = () => {
                     <Link to="/events" onClick={() => setIsOpen(false)} className="text-white"><h6>EVENTS</h6></Link>
                     <Link to="/schedule" onClick={() => setIsOpen(false)} className="text-white hidden"><h6>SCHEDULE</h6></Link>
                     <Link to="/brochure" onClick={() => setIsOpen(false)} className="text-white"><h6>BROCHURE</h6></Link>
+                    <Link to="/contact" onClick={() => setIsOpen(false)} className="text-white"><h6>CONTACT US</h6></Link>
                 </div>
             )}
         </div>

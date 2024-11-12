@@ -7,6 +7,7 @@ import Brochure from "../screens/brochure.jsx";
 import Login from "../auth/login.jsx";
 import Signup from "../auth/signup.jsx";
 import ScheduleNav from "../screens/ScheduleNav.jsx";
+import ContactUs from "../screens/ContactUs.jsx";
 
 
 const AppRoutes = () => {
@@ -21,6 +22,8 @@ const AppRoutes = () => {
                 <Route path="/brochure" element={<Brochure />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
+                <Route path="/contact" element={<ContactUs />} />
+
 
             </Routes>
         </BrowserRouter>
