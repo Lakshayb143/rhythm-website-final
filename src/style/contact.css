@@ -1,11 +1,15 @@
 
 @media (min-width: 1201px) {
+    .contact-main{
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url("../assets/images/background.jpeg");
 
+    }
     .contact-us {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
 
     .contact-us h1 {
@@ -87,6 +91,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .contact-main{
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url("../assets/images/background.jpeg");
+
+    }
 
     .contact-us {
         display: flex;
@@ -175,6 +183,10 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+    .contact-main{
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url("../assets/images/background.jpeg");
+
+    }
 
     .contact-us {
         display: flex;
@@ -263,6 +275,10 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+    .contact-main{
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url("../assets/images/background.jpeg");
+
+    }
 
     .contact-us {
         display: flex;

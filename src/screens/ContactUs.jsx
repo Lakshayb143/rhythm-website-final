@@ -6,6 +6,7 @@ import phone from '../assets/images/telephone.png'
 const ContactUsPage = () => {
     return (
         <div className=" bg-background-color h-screen
+        contact-main
         ">
             {/*NAVBAR*/}
             <Navbar />
