@@ -150,6 +150,7 @@ body {
   .body-container {
     position: relative;
     overflow: hidden;
+  background-color: rgba(36, 36, 36, 1)
   }
 
   /* Slider Image */

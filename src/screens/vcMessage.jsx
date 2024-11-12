@@ -4,7 +4,7 @@ const Message = () => {
     return (
 
             <div className="message-container-2k24">
-                <div className="container-heading"><h1>VC’s Vision for RHYTHM&#39;24
+                <div className="container-heading"><h1>OUR INSPIRATION
                 </h1></div>
                 {/*Main container*/}
                 <div className="message-container-image">
@@ -43,7 +43,7 @@ const Message = () => {
                         performances, enlightening conversations and enduring connections. After all, together we can
                         create a
                         symphony of cultures that resonates beyond these walls.
-                        <br/><span className="text-white font-black">Best wishes! Thank you</span>
+                        <br/><span className="text-white font-black">Best wishes!</span>
                     </p>
                 </div>
             </div>

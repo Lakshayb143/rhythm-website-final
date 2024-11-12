@@ -7,6 +7,8 @@
         flex-direction: column;
         max-height: 56rem;
         border-bottom: 1px solid white;
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../assets/images/fest2.jpg");
+
     }
 
     .main-heading-about {
@@ -64,8 +66,8 @@
     .subtitle-about {
         color: white;
         font-weight: bold;
-        font-size: 2rem;
-        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        margin-top: 0.4rem;
     }
 
     .list {
