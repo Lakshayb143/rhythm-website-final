@@ -4,23 +4,22 @@
     border-bottom: 2px solid white;
     padding: 20px;
     height: 40rem;
+    justify-content: space-evenly;
 }
 
     .sponsor-body-card{
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
+        justify-content: center;
 
     }
 
     .sponsor-body-card img{
         height: 28rem;
-        width: 20rem;
-        position: relative;
-        left: 5rem;
+        width: 23rem;
         transition: all 0.3s linear;
         border-radius: 20px;
-        object-fit: cover;
     }
 
     .sponsor-body-card img:hover{
@@ -28,20 +27,19 @@
     }
 
     .sponsor-body-card h3{
-        color: white;
         font-size: 2rem;
         font-weight: bold;
-        position: relative;
-        left: 3rem;
         padding: 10px;
         margin-top: 1.5rem;
+        color: transparent; /* Make the text color transparent */
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+        background-clip: text;
     }
 
     .sponsor-location{
         display: flex;
         gap :1rem;
-        position: relative;
-        left:3rem;
     }
 
     .sponsor-location img{
@@ -50,8 +48,6 @@
     }
 
     .sponsor-location a{
-        position: relative;
-        left: 5rem;
         color: white;
         text-decoration-line: underline;
     }
@@ -61,9 +57,10 @@
 
     .sponsor-body-container{
         display: flex;
+        flex-direction: column;
         border-bottom: 2px solid white;
-        height: 30rem;
-        justify-content: center;
+        height: 60rem;
+        gap: 3rem;
     }
 
     .sponsor-body-card{
@@ -86,8 +83,11 @@
     }
 
     .sponsor-body-card h3{
-        color: white;
-        font-size: 1.5rem;
+        color: transparent; /* Make the text color transparent */
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+        background-clip: text;
+        font-size: 1.3rem;
         font-weight: bold;
         position: relative;
         margin-top: 1.5rem;
@@ -116,8 +116,9 @@
     .sponsor-body-container{
         display: flex;
         border-bottom: 2px solid white;
-        justify-content: center;
-        height: 40rem;
+        height: 78rem;
+        gap: 3rem;
+        flex-direction: column;
     }
 
     .sponsor-body-card{
@@ -129,7 +130,7 @@
 
     .sponsor-body-card img{
         height: 28rem;
-        width: 20rem;
+        width: 22rem;
         transition: all 0.3s linear;
         border-radius: 20px;
     }
@@ -139,10 +140,13 @@
     }
 
     .sponsor-body-card h3{
-        color: white;
         font-size: 2rem;
         font-weight: bold;
         margin-top: 1.5rem;
+        color: transparent; /* Make the text color transparent */
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+        background-clip: text;
     }
 
     .sponsor-location{
@@ -168,6 +172,7 @@
         border-bottom: 2px solid white;
         height: 40rem;
         justify-content: center;
+        gap: 3rem;
     }
 
     .sponsor-body-card{
@@ -179,7 +184,7 @@
 
     .sponsor-body-card img{
         height: 28rem;
-        width: 20rem;
+        width: 22rem;
         transition: all 0.3s linear;
         border-radius: 20px;
     }
@@ -189,10 +194,13 @@
     }
 
     .sponsor-body-card h3{
-        color: white;
         font-size: 2rem;
         font-weight: bold;
         margin-top: 1.5rem;
+        color: transparent; /* Make the text color transparent */
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+        background-clip: text;
     }
 
     .sponsor-location{
