@@ -8,6 +8,8 @@ import SponserTitle from "./sponserTitle.jsx";
 import SponsersBody from "./sponserBody.jsx";
 import Footer from "./footer.jsx";
 import Message from "./vcMessage.jsx";
+import SponsorHeading from "./SponserHeading.jsx";
+import SponsorsDiv from "./SponsersBody.jsx";
 
 
 const Home = () => {
@@ -20,6 +22,10 @@ const Home = () => {
             <Message/>
             <Schedule/>
             <ScheduleCards/>
+            {/*sponsors*/}
+            <SponsorHeading/>
+            <SponsorsDiv/>
+            {/*Glimpse*/}
             <SponserTitle/>
             <SponsersBody/>
             <Footer/>

@@ -14,7 +14,7 @@ const About = () => {
                 inviting students from all walks of life to come together and showcase their unique talents. It&#39;s a
                 platform where budding musicians strum their guitars, graceful dancers move in harmony, and artists
                 paint their dreams on the canvas of the stage. Join us in this harmonious extravaganza, where every beat
-                resonates with the spirit of unity and artistic brilliance. Let the rhythm guide you, let the music
+                      resonates with the spirit of unity and artistic brilliance. Let the rhythm guide you, let the music
                 inspire you, and let the dance floor be your canvas. Get ready to be enthralled, entertained, and
                 enchanted at Rhythm, the heartbeat of creativity at DCRUST College. Come, let&#39;s create music, one
                 beat at a time!

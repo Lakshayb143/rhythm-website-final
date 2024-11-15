@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
 import Menu from '../assets/images/menu.png';
 import Rhythm from '../assets/images/rhythm.png';
-import React from "react";
 import close from '../assets/images/close.png'
+import React, { Suspense } from "react";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
+    const Brochure = React.lazy(() => import('../screens/brochure.jsx'));
+
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -28,7 +30,13 @@ const Navbar = () => {
                 <Link to="/rulebook" className="animate-underline text-white hover:text-white nav-link">RULEBOOK</Link>
                 <Link to="/events" className="animate-underline text-white hover:text-white nav-link">EVENTS</Link>
                 <Link to="/schedule" className="animate-underline text-white hover:text-white nav-link hidden">SCHEDULE</Link>
-                <Link to="/brochure" className="animate-underline text-white hover:text-white nav-link">BROCHURE</Link>
+                {/*
+                <Link to="/brochure" className="animate-underline text-white hover:text-white nav-link">BROCHURE</Link>*/}
+                <Suspense fallback={<div>Loading Brochure...</div>}>
+                    <Link to="/brochure" className="animate-underline text-white hover:text-white nav-link">
+                        BROCHURE
+                    </Link>
+                </Suspense>
                 <Link to="/contact" className="animate-underline text-white hover:text-white nav-link">CONTACT US</Link>
 
             </div>

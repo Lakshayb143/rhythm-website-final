@@ -1,0 +1,212 @@
+@media (min-width:1201px) {
+.sponsor-body-container{
+        display: flex;
+    border-bottom: 2px solid white;
+    padding: 20px;
+    height: 40rem;
+}
+
+    .sponsor-body-card{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .sponsor-body-card img{
+        height: 28rem;
+        width: 20rem;
+        position: relative;
+        left: 5rem;
+        transition: all 0.3s linear;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .sponsor-body-card img:hover{
+        scale: 1.1;
+    }
+
+    .sponsor-body-card h3{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        position: relative;
+        left: 3rem;
+        padding: 10px;
+        margin-top: 1.5rem;
+    }
+
+    .sponsor-location{
+        display: flex;
+        gap :1rem;
+        position: relative;
+        left:3rem;
+    }
+
+    .sponsor-location img{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .sponsor-location a{
+        position: relative;
+        left: 5rem;
+        color: white;
+        text-decoration-line: underline;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .sponsor-body-container{
+        display: flex;
+        border-bottom: 2px solid white;
+        height: 30rem;
+        justify-content: center;
+    }
+
+    .sponsor-body-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sponsor-body-card img{
+        height: 20rem;
+        width: 15rem;
+        position: relative;
+        transition: all 0.3s linear;
+        border-radius: 20px;
+    }
+
+    .sponsor-body-card img:hover{
+        scale: 1.1;
+    }
+
+    .sponsor-body-card h3{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        position: relative;
+        margin-top: 1.5rem;
+    }
+
+    .sponsor-location{
+        margin-top: 0.5rem;
+        display: flex;
+        gap :0.5rem;
+        position: relative;
+    }
+
+    .sponsor-location img{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .sponsor-location a{
+        position: relative;
+        color: white;
+        text-decoration-line: underline;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .sponsor-body-container{
+        display: flex;
+        border-bottom: 2px solid white;
+        justify-content: center;
+        height: 40rem;
+    }
+
+    .sponsor-body-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sponsor-body-card img{
+        height: 28rem;
+        width: 20rem;
+        transition: all 0.3s linear;
+        border-radius: 20px;
+    }
+
+    .sponsor-body-card img:hover{
+        scale: 1.1;
+    }
+
+    .sponsor-body-card h3{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 1.5rem;
+    }
+
+    .sponsor-location{
+        display: flex;
+        gap :1rem;
+
+    }
+
+    .sponsor-location img{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .sponsor-location a{
+        color: white;
+        text-decoration-line: underline;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sponsor-body-container{
+        display: flex;
+        border-bottom: 2px solid white;
+        height: 40rem;
+        justify-content: center;
+    }
+
+    .sponsor-body-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sponsor-body-card img{
+        height: 28rem;
+        width: 20rem;
+        transition: all 0.3s linear;
+        border-radius: 20px;
+    }
+
+    .sponsor-body-card img:hover{
+        scale: 1.1;
+    }
+
+    .sponsor-body-card h3{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 1.5rem;
+    }
+
+    .sponsor-location{
+        display: flex;
+        gap :1rem;
+    }
+
+    .sponsor-location img{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .sponsor-location a{
+        color: white;
+        text-decoration-line: underline;
+    }
+}
