@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ScheduleEventCard from "./ScheduleEventCard";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import "../style/scheduleMain.css";
+import Navbar from "./navbar";
 
 const venues = [
   { id: "1", name: "University Auditorium", icon: <FaMapMarkerAlt /> },
@@ -15,6 +16,7 @@ const RhythmSchedule = ({ scheduleData }) => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white">
+      <Navbar />
       {/* Hero Section */}
       <div className="relative">
         <div className="mx-auto text-center py-8 sm:py-12">
@@ -33,7 +35,7 @@ const RhythmSchedule = ({ scheduleData }) => {
         {venues.map((venue) => (
           <button
             key={venue.id}
-            className={`flex items-center justify-center w-72 space-x-2 px-4 py-2 sm:px-4 sm:py-3 rounded-3xl font-semibold transition-all transform ${
+            className={`flex items-center justify-center w-80 space-x-2 px-4 py-2 sm:px-4 sm:py-3 rounded-3xl font-semibold transition-all transform ${
               selectedVenue === venue.id
                 ? "bg-white text-indigo-800 shadow-xl scale-110"
                 : "bg-indigo-600 hover:bg-indigo-500 hover:scale-105"
