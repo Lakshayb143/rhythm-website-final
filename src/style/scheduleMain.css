@@ -1,0 +1,6 @@
+.title{
+    color: transparent; /* Make the text color transparent */
+    background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+    background-clip: text;
+}
