@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const Countdown = () => {
     const width = window.innerWidth;
     const calculateTime = () => {
-        const countDownDate = new Date('November 20, 2024 00:00:00').getTime();
+        const countDownDate = new Date('November 20, 2024 10:30:00').getTime();
         const now = new Date().getTime();
         const remainingTime = countDownDate - now;
 
@@ -26,7 +26,7 @@ const Countdown = () => {
 
     if (timeLeft.days < 0) {
         return (
-            <div className="countdown-container">
+            <div className="countdown-container-moment">
                 <div className="centered">
                     <h1 className="main-heading">🎉 THE MOMENT IS HERE! 🎉</h1>
                         <h4 className="sub-heading">

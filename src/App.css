@@ -265,6 +265,12 @@ body {
   width: 100%;
 }
 
+  .countdown-container-moment{
+    display: flex;
+    justify-content: center;
+    height: 12rem;
+  }
+
 .main-heading{
   margin-top: 2rem;
   font-size: 2.5rem;
@@ -482,13 +488,17 @@ body {
   /* Countdown.css */
 
   .container {
-    height: 18rem;
+    height: 20rem;
     width: 100vw;
     display: flex;
     background-color: red;
     flex-direction: column;
   }
-
+.countdown-container-moment{
+  display: flex;
+  justify-content: center;  
+  height: 12rem;
+}
   .centered {
     position: relative;
     top: 2rem;
@@ -720,6 +730,11 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+  }
+  .countdown-container-moment{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
   }
 
   .centered {
@@ -957,7 +972,11 @@ body {
     flex-direction: column;
     margin-top: 2rem;
   }
-
+  .countdown-container-moment{
+    display: flex;
+    justify-content: center;
+    height: 12rem;
+  }
   .centered {
     position: relative;
     top: 2rem;
