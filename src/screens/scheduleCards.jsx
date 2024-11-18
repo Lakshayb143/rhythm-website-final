@@ -104,3 +104,21 @@ const scheduleCards = () => {
 }
 
 export default scheduleCards;
+
+
+<div className="container mx-auto flex flex-wrap justify-center gap-6 mt-8 px-4">
+  {venues.map((venue) => (
+    <button
+      key={venue.id}
+      className={`flex items-center space-x-2 px-6 py-3 rounded-lg font-semibold transition-all transform ${
+        selectedVenue === venue.id
+          ? "bg-white text-indigo-800 shadow-xl scale-110"
+          : "bg-indigo-600 hover:bg-indigo-500 hover:scale-105"
+      }`}
+      onClick={() => setSelectedVenue(venue.id)}
+    >
+      {venue.icon}
+      <span>{venue.name}</span>
+    </button>
+  ))}
+</div>;
