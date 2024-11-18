@@ -14,6 +14,34 @@
         justify-content: space-evenly;
     }
 
+    .sponsor-body-card-header{
+        height: 28rem;
+        position: relative;
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponsor-body-card-header img:hover{
+        scale: none !important;
+    }
+        .sponsor-body-card-header h1{
+        font-size: 1.9rem;
+        font-weight: bold;
+        position: absolute;
+        z-index: 99;
+        bottom: -1.1rem;
+        text-align: center;
+        width: 80%;
+        padding-top: 1rem;
+            padding-bottom: 1rem;
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+        border-radius: 5rem;
+        color: white;
+        justify-self: center;
+    }
+
     .sponsor-body-card{
         display: flex;
         flex-direction: column;
@@ -82,6 +110,34 @@
         padding-bottom: 2rem;
 
     }
+    .sponsor-body-card-header{
+        height: 28rem;
+        position: relative;
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponsor-body-card-header img:hover{
+        scale: none !important;
+    }
+
+    .sponsor-body-card-header h1{
+        font-size: 1.3rem;
+        font-weight: bold;
+        position: absolute;
+        z-index: 99;
+        bottom: 3rem;
+        text-align: center;
+        width: 50%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+        border-radius: 5rem;
+        color: white;
+        justify-self: center;
+    }
 
     .sponsor-body-card img{
         height: 20rem;
@@ -94,7 +150,9 @@
     .sponsor-body-card img:hover{
         scale: 1.1;
     }
-
+    .sponsor-body-card .small-screens  {
+            margin-top: -1rem;
+    }
     .sponsor-body-card h3{
         color: transparent; /* Make the text color transparent */
         background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%); /* Gradient background */
@@ -103,7 +161,7 @@
         font-size: 1.3rem;
         font-weight: bold;
         position: relative;
-        margin-top: 1.5rem;
+        margin-top: 2rem;
     }
 
     .sponsor-location{
@@ -141,6 +199,35 @@
         padding-bottom: 3rem;
 
     }
+    .sponsor-body-card-header{
+        height: 28rem;
+        position: relative;
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponsor-body-card-header img:hover{
+        scale: none !important;
+    }
+
+    .sponsor-body-card-header h1{
+        font-size: 1.3rem;
+        font-weight: bold;
+        position: absolute;
+        z-index: 99;
+        bottom: -1rem;
+        text-align: center;
+        width: 50%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+        border-radius: 5rem;
+        color: white;
+        justify-self: center;
+    }
+
 
     .sponsor-body-card img{
         height: 28rem;
@@ -211,6 +298,35 @@
 
     .sponsor-body-card img:hover{
         scale: 1.1;
+    }
+
+    .sponsor-body-card-header{
+        height: 28rem;
+        position: relative;
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponsor-body-card-header img:hover{
+        scale: none !important;
+    }
+
+    .sponsor-body-card-header h1{
+        font-size: 1.3rem;
+        font-weight: bold;
+        position: absolute;
+        z-index: 99;
+        bottom: -1rem;
+        text-align: center;
+        width: 50%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background: linear-gradient(90deg, #F678F0 0%, #00E8FF 186.42%);
+        border-radius: 5rem;
+        color: white;
+        justify-self: center;
     }
 
     .sponsor-body-card h3{
