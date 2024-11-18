@@ -1,16 +1,22 @@
 import '../style/sponsorsBody.css';
 import sponsor from '../assets/images/sponsor.jpeg';
-import hwai from '../assets/images/hawai.png';
+import hawai from '../assets/images/hawai.jpeg';
 import location from '../assets/images/location.png';
 import stown from '../assets/images/Stown.png';
 import snackbar from '../assets/images/snackbar.jpeg';
+import desiDhadkan from '../assets/images/desiDhadkan.jpeg';
+import rangtaal from  '../assets/images/rangtaal.jpeg';
+import youtube from '../assets/images/youtube.png';
 const SponsorsDiv = () => {
     return (
         <div className="sponsor-body-container">
             <div className="sponsor-body-container-inner">
                 <div className="sponsor-body-card">
-                    <img src={hwai} alt="rhythm_sponsor"/>
-                    <h3>HAWAI ADDA, MURTHAL
+                    <div className='sponsor-body-card-header'>
+                        <img src={hawai} alt="rhythm_sponsor" className="exception"/>
+                        <h1 className="exception">TITLE SPONSOR</h1>
+                    </div>
+                    <h3 className="small-screens">HAWAI ADDA, MURTHAL
                     </h3>
                     <div className="sponsor-location">
                         <img src={location} alt="location"/>
@@ -61,8 +67,35 @@ const SponsorsDiv = () => {
                 </div>
 
             </div>
-        </div>
-            )
-            }
 
-            export default SponsorsDiv;
+            <div className="sponsor-body-container-inner">
+                <div className="sponsor-body-card">
+                    <img src={desiDhadkan} alt="rhythm_sponsor"/>
+                    <h3>DESI DHADKAN
+                    </h3>
+                    <div className="sponsor-location">
+                        <img src={youtube} alt="location"/>
+                        <a href="https://www.youtube.com/desidhadkan" target='_blank' rel="noopener noreferrer">
+                            Subscribe to the Channel
+                        </a>
+                    </div>
+                </div>
+
+                <div className="sponsor-body-card">
+                    <img src={rangtaal} alt="rhythm_sponsor"/>
+                    <h3>RANGTAAL RECORDS
+                    </h3>
+                    <div className="sponsor-location">
+                        <img src={youtube} alt="location"/>
+                        <a href="https://www.youtube.com/rangtaalrecords" target='_blank' rel="noopener noreferrer">
+                            Subscribe to the Channel
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    )
+}
+
+export default SponsorsDiv;
