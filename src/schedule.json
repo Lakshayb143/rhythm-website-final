@@ -1,0 +1,289 @@
+[
+    {
+      "venueId": "1",
+      "name": "Inauguration",
+      "time": "10:30-11:00",
+      "date": "20th November 2024",
+      "category": "Ceremony"
+    },
+    {
+      "venueId": "1",
+      "name": "17th Deenbandhu Chhotu Ram Memorial Lecture",
+      "time": "11:00-12:00",
+      "date": "20th November 2024",
+      "category": "Lecture"
+    },
+    {
+      "venueId": "1",
+      "name": "Bollywood in Haryana",
+      "time": "12:30-01:30",
+      "date": "20th November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Mime",
+      "time": "01:30-02:00",
+      "date": "20th November 2024",
+      "category": "Drama"
+    },
+    {
+      "venueId": "1",
+      "name": "Spoof",
+      "time": "02:00-03:30",
+      "date": "20th November 2024",
+      "category": "Drama"
+    },
+    {
+      "venueId": "1",
+      "name": "Western Vocal (Solo)",
+      "time": "03:30-04:30",
+      "date": "20th November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Rap Battle",
+      "time": "03:30-04:30",
+      "date": "20th November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Battle of Bands",
+      "time": "04:30-05:30",
+      "date": "20th November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Duet Music",
+      "time": "05:30-07:00",
+      "date": "20th November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Classical Dance (Solo)",
+      "time": "06:30-07:30",
+      "date": "20th November 2024",
+      "category": "Dance"
+    },
+    {
+      "venueId": "1",
+      "name": "Western Dance (Solo)",
+      "time": "07:30-08:30",
+      "date": "20th November 2024",
+      "category": "Dance"
+    },
+    {
+      "venueId": "1",
+      "name": "Mono Act",
+      "time": "09:00-10:00",
+      "date": "21st November 2024",
+      "category": "Drama"
+    },
+    {
+      "venueId": "1",
+      "name": "Mimicry / One Act Play",
+      "time": "10:00-11:30",
+      "date": "21st November 2024",
+      "category": "Drama"
+    },
+    {
+      "venueId": "1",
+      "name": "Skit",
+      "time": "11:30-01:00",
+      "date": "21st November 2024",
+      "category": "Drama"
+    },
+    {
+      "venueId": "1",
+      "name": "Group Song (Folk)",
+      "time": "01:30-02:30",
+      "date": "21st November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Group Song (Western)",
+      "time": "02:30-03:00",
+      "date": "21st November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Duet Dance",
+      "time": "03:00-03:30",
+      "date": "21st November 2024",
+      "category": "Dance"
+    },
+    {
+      "venueId": "1",
+      "name": "Savera School Performance",
+      "time": "03:30-03:45",
+      "date": "21st November 2024",
+      "category": "Special Performance"
+    },
+    {
+      "venueId": "1",
+      "name": "General Dance (Solo) / (Folk)",
+      "time": "03:45-04:45",
+      "date": "21st November 2024",
+      "category": "Dance"
+    },
+    {
+      "venueId": "1",
+      "name": "Group Dance (Western)",
+      "time": "04:45-05:45",
+      "date": "21st November 2024",
+      "category": "Dance"
+    },
+    {
+      "venueId": "1",
+      "name": "Star Night / DJ Night",
+      "time": "06:00-08:00",
+      "date": "21st November 2024",
+      "category": "Special Performance"
+    },
+    {
+      "venueId": "1",
+      "name": "Western Instrumental (Solo)",
+      "time": "10:00-11:00",
+      "date": "22nd November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Light Music Vocal (Folk)",
+      "time": "11:00-12:00",
+      "date": "22nd November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Group Song (General)",
+      "time": "12:00-01:00",
+      "date": "22nd November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Qawwali",
+      "time": "01:30-02:00",
+      "date": "22nd November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "1",
+      "name": "Group Dance (Folk/Tribal)",
+      "time": "02:00-03:00",
+      "date": "22nd November 2024",
+      "category": "Dance"
+    },
+    {
+      "venueId": "1",
+      "name": "Awaaz (Musical Performance by Music Lovers)",
+      "time": "03:00-03:30",
+      "date": "22nd November 2024",
+      "category": "Special Performance"
+    },
+    {
+      "venueId": "1",
+      "name": "Fashion Parade",
+      "time": "03:30-04:00",
+      "date": "22nd November 2024",
+      "category": "Fashion"
+    },
+    {
+      "venueId": "1",
+      "name": "Valedictory",
+      "time": "04:00-05:30",
+      "date": "22nd November 2024",
+      "category": "Ceremony"
+    },
+    {
+      "venueId": "2",
+      "name": "Classical Instrumental Solo (Percussion)",
+      "time": "09:00-10:00",
+      "date": "21st November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "2",
+      "name": "Classical Instrumental Solo (Non-Percussion)",
+      "time": "10:00-11:00",
+      "date": "21st November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "2",
+      "name": "Light Music Vocal Geet/Bhajan",
+      "time": "11:00-12:00",
+      "date": "21st November 2024",
+      "category": "Music"
+    },
+    {
+      "venueId": "2",
+      "name": "Poetic Recitation",
+      "time": "12:30-02:00",
+      "date": "21st November 2024",
+      "category": "Literature"
+    },
+    {
+      "venueId": "2",
+      "name": "Debate",
+      "time": "02:00-04:00",
+      "date": "21st November 2024",
+      "category": "Literature"
+    },
+    {
+      "venueId": "3",
+      "name": "Collage",
+      "time": "12:00-02:00",
+      "date": "20th November 2024",
+      "category": "Art"
+    },
+    {
+      "venueId": "3",
+      "name": "On the Spot Painting / Sanjhi",
+      "time": "02:00-04:00",
+      "date": "20th November 2024",
+      "category": "Art"
+    },
+    {
+      "venueId": "3",
+      "name": "Best Out of Waste",
+      "time": "04:00-06:30",
+      "date": "20th November 2024",
+      "category": "Art"
+    },
+    {
+      "venueId": "3",
+      "name": "Rangoli",
+      "time": "09:30-12:00",
+      "date": "21st November 2024",
+      "category": "Art"
+    },
+    {
+      "venueId": "3",
+      "name": "Spot Photography / Poster Making",
+      "time": "12:00-02:00",
+      "date": "21st November 2024",
+      "category": "Art"
+    },
+    {
+      "venueId": "3",
+      "name": "Clay Modelling / Cartooning",
+      "time": "02:00-05:00",
+      "date": "21st November 2024",
+      "category": "Art"
+    },
+    {
+      "venueId": "4",
+      "name": "Nukkad Naatika",
+      "time": "03:00-05:00",
+      "date": "21st November 2024",
+      "category": "Drama"
+    }
+  ]

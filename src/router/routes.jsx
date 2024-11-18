@@ -6,8 +6,10 @@ import Gallery from "../screens/gallery.jsx";
 import Brochure from "../screens/brochure.jsx";
 import Login from "../auth/login.jsx";
 import Signup from "../auth/signup.jsx";
-import ScheduleNav from "../screens/ScheduleNav.jsx";
+// import ScheduleNav from "../screens/ScheduleNav.jsx";
 import ContactUs from "../screens/ContactUs.jsx";
+import ScheduleMain from "../screens/ScheduleMain.jsx";
+import ScheduleData from '../schedule.json'
 
 
 const AppRoutes = () => {
@@ -18,7 +20,7 @@ const AppRoutes = () => {
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/rulebook" element={<Rulebook />} />
                 <Route path="/events" element={<Events />} />
-                    <Route path="/schedule" element={<ScheduleNav />} />
+                <Route path="/schedule" element={<ScheduleMain scheduleData={ScheduleData} />} />
                 <Route path="/brochure" element={<Brochure />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />

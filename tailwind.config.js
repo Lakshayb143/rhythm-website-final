@@ -21,6 +21,10 @@ export default{
       cursor: {
         'custom': 'url("/home/alok/WebstormProjects/rythm/src/assets/images/cursor.png")6 6, auto',
       },
+
+      animation: {
+        pulse: 'pulse 3s infinite',
+      },
     },
   },
   plugins: [],

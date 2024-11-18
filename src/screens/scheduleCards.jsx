@@ -92,14 +92,15 @@ const scheduleCards = () => {
                     </div>
 
                 </div>
-<Link to="/schedule">
+            <Link to="/schedule">
                 <button
                     className="schedule-button">
                     SEE MORE
                 </button>
-</Link>
+            </Link>
             </div>
-</>)
+        </>
+        )
 }
 
 export default scheduleCards;
