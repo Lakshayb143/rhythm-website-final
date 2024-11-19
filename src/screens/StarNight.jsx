@@ -96,7 +96,7 @@ const StarNight = () => {
       </motion.div>
 
       {/* Main Singer Spotlight */}
-      <div className="relative bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-700 p-8 rounded-xl shadow-2xl mx-4 sm:mx-auto sm:max-w-4xl text-center z-10">
+      <div className="w-auto min-h-[400px] relative bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-700 p-8 rounded-xl shadow-2xl mx-4 sm:mx-auto sm:max-w-4xl text-center z-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
