@@ -73,8 +73,7 @@ const StarNight = () => {
     },
   ];
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black via-purple-900 to-black text-white relative py-10">
-      {/* Animated Star Background */}
+    <div className="min-h-screen bg-gradient-to-b from-black to-black text-white relative py-10">
       <div className="absolute inset-0 overflow-hidden">
         <div className="stars bg-repeat bg-contain opacity-30"></div>
       </div>
@@ -86,9 +85,9 @@ const StarNight = () => {
         transition={{ duration: 1 }}
         className="text-center mb-12 z-10 relative"
       >
-        <h1 className="text-5xl sm:text-6xl font-extrabold uppercase mb-4 text-yellow-400 tracking-wider">
-          <FaStar className="inline-block ml-2" /> Star Night{" "}
-          <FaStar className="inline-block ml-2" />
+        <h1 className="text-4xl sm:text-5xl font-extrabold uppercase mb-4 text-yellow-400 tracking-wider ">
+          <FaStar className="inline-block ml-1" /> Star Night
+          <FaStar className="inline-block ml-1" />
         </h1>
         <p className="text-lg sm:text-xl text-gray-300">
           Witness the magic of Rhythm 2024 with incredible performances!
@@ -96,16 +95,16 @@ const StarNight = () => {
       </motion.div>
 
       {/* Main Singer Spotlight */}
-      <div className="w-auto min-h-[400px] relative bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-700 p-8 rounded-xl shadow-2xl mx-4 sm:mx-auto sm:max-w-4xl text-center z-10">
+      <div className="w-auto min-h-[400px] relative bg-gradient-to-r p-8 rounded-xl shadow-2xl mx-4 sm:mx-auto sm:max-w-4xl text-center z-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2 }}
         >
-          <h2 className="text-4xl sm:text-5xl font-bold text-black mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             {mainSinger.name}
           </h2>
-          <p className="text-xl text-gray-800">
+          <p className="text-xl text-white">
             {mainSinger.date} | {mainSinger.time}
           </p>
           <img
@@ -145,7 +144,7 @@ const StarNight = () => {
             <motion.div
               key={index}
               whileHover={{ scale: 1.1 }}
-              className="bg-gradient-to-b from-purple-800 to-purple-900 p-6 rounded-lg shadow-lg text-center relative group"
+              className="bg-gradient-to-b p-6 rounded-lg shadow-lg text-center relative group"
             >
               <img
                 src={singer.image}
@@ -159,7 +158,7 @@ const StarNight = () => {
                 | {singer.date} |
               </p>
               {/* Glowing Effect */}
-              <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 bg-gradient-to-r from-yellow-400 via-red-500 to-purple-500 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 rounded-lg opacity-0 bg-gradient-to-r   transition-opacity duration-300"></div>
             </motion.div>
           ))}
         </div>
