@@ -29,7 +29,8 @@ const Navbar = () => {
                 <Link to="/gallery" className="animate-underline text-white hover:text-white nav-link">GALLERY</Link>
                 <Link to="/rulebook" className="animate-underline text-white hover:text-white nav-link">RULEBOOK</Link>
                 <Link to="/events" className="animate-underline text-white hover:text-white nav-link">EVENTS</Link>
-                <Link to="/schedule" className="animate-underline text-white hover:text-white nav-link hidden">SCHEDULE</Link>
+                <Link to="/schedule" className="animate-underline text-white hover:text-white nav-link">SCHEDULE</Link>
+                
                 {/*
                 <Link to="/brochure" className="animate-underline text-white hover:text-white nav-link">BROCHURE</Link>*/}
                 <Suspense fallback={<div>Loading Brochure...</div>}>
@@ -48,7 +49,7 @@ const Navbar = () => {
                     <Link to="/gallery" onClick={() => setIsOpen(false)} className="text-white"><h6>GALLERY</h6></Link>
                     <Link to="/rulebook" onClick={() => setIsOpen(false)} className="text-white"><h6>RULEBOOK</h6></Link>
                     <Link to="/events" onClick={() => setIsOpen(false)} className="text-white"><h6>EVENTS</h6></Link>
-                    <Link to="/schedule" onClick={() => setIsOpen(false)} className="text-white hidden"><h6>SCHEDULE</h6></Link>
+                    <Link to="/schedule" onClick={() => setIsOpen(false)} className="text-white"><h6>SCHEDULE</h6></Link>
                     <Link to="/brochure" onClick={() => setIsOpen(false)} className="text-white"><h6>BROCHURE</h6></Link>
                     <Link to="/contact" onClick={() => setIsOpen(false)} className="text-white"><h6>CONTACT US</h6></Link>
                 </div>
