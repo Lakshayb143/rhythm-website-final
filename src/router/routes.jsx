@@ -6,7 +6,6 @@ import Gallery from "../screens/gallery.jsx";
 import Brochure from "../screens/brochure.jsx";
 import Login from "../auth/login.jsx";
 import Signup from "../auth/signup.jsx";
-// import ScheduleNav from "../screens/ScheduleNav.jsx";
 import ContactUs from "../screens/ContactUs.jsx";
 import ScheduleMain from "../screens/ScheduleMain.jsx";
 import ScheduleData from '../schedule.json'
