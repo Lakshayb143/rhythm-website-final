@@ -91,6 +91,20 @@
     "category": "Competition"
   },
   {
+    "venueId": "2",
+    "name": "ELOCUTION",
+    "time": "10:00-12:30",
+    "date": "21th November 2024",
+    "category": "Literature"
+  },
+  {
+    "venueId": "2",
+    "name": "QUIZ",
+    "time": "12:30-02:30",
+    "date": "21th November 2024",
+    "category": "Competition"
+  },
+  {
     "venueId": "3",
     "name": "Collage",
     "time": "12:00-02:00",

@@ -10,6 +10,7 @@ import Footer from "./footer.jsx";
 import Message from "./vcMessage.jsx";
 import SponsorHeading from "./SponserHeading.jsx";
 import SponsorsDiv from "./SponsersBody.jsx";
+import StarNight from "./StarNight.jsx";
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
             <Message/>
             <Schedule/>
             <ScheduleCards/>
+            <StarNight/>
             {/*sponsors*/}
             <SponsorHeading/>
             <SponsorsDiv/>
